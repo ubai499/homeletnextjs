@@ -30,7 +30,7 @@ import { useState,useEffect } from 'react'
 export default function App({ Component, pageProps }) {
   return(
     <>
-    <Head/>
+    {/* <Head/> */}
     {/* <Loading/> */}
     <Component {...pageProps} />
     {/* <Scripts/> */}
