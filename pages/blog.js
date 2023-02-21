@@ -1,7 +1,7 @@
 import Footer from "components/Footer";
 import Header from "components/Header";
 import Topbar from "components/Topbar";
-
+import Image from "next/image";
 export default function Blog(){
     return(
         <>
@@ -55,7 +55,7 @@ export default function Blog(){
         <div className="blog-post">
           <a href="blog_detail_right_sidebar.html" className="post-img">
             {" "}
-            <img src="images/blog-post-01.jpg" alt="" />{" "}
+            <Image width="100" height="100"  src="/images/blog-post-01.jpg" alt="" />{" "}
           </a>
           <div className="utf-post-content-area">
             <h3>
@@ -85,7 +85,7 @@ export default function Blog(){
         <div className="blog-post">
           <a href="blog_detail_right_sidebar.html" className="post-img">
             {" "}
-            <img src="images/blog-post-02.jpg" alt="" />{" "}
+            <Image width="100" height="100"  src="/images/blog-post-02.jpg" alt="" />{" "}
           </a>
           <div className="utf-post-content-area">
             <h3>
@@ -115,7 +115,7 @@ export default function Blog(){
         <div className="blog-post">
           <a href="blog_detail_right_sidebar.html" className="post-img">
             {" "}
-            <img src="images/blog-post-03.jpg" alt="" />{" "}
+            <Image width="100" height="100"  src="/images/blog-post-03.jpg" alt="" />{" "}
           </a>
           <div className="utf-post-content-area">
             <h3>
@@ -145,7 +145,7 @@ export default function Blog(){
         <div className="blog-post">
           <a href="blog_detail_right_sidebar.html" className="post-img">
             {" "}
-            <img src="images/blog-post-04.jpg" alt="" />{" "}
+            <Image width="100" height="100"  src="/images/blog-post-04.jpg" alt="" />{" "}
           </a>
           <div className="utf-post-content-area">
             <h3>
@@ -214,7 +214,7 @@ export default function Blog(){
           <div className="widget utf-sidebar-widget-item">
             <div className="utf-detail-banner-add-section">
               <a href="#">
-                <img src="images/banner-add-2.jpg" alt="banner-add-2" />
+                <Image width="100" height="100"  src="/images/banner-add-2.jpg" alt="banner-add-2" />
               </a>
             </div>
           </div>
@@ -269,7 +269,7 @@ export default function Blog(){
                   <div className="widget-thumb">
                     {" "}
                     <a href="blog-full-width-single-post.html">
-                      <img src="images/blog-widget-03.jpg" alt="" />
+                      <Image width="100" height="100"  src="/images/blog-widget-03.jpg" alt="" />
                     </a>{" "}
                   </div>
                   <div className="widget-text">
@@ -289,7 +289,7 @@ export default function Blog(){
                   <div className="widget-thumb">
                     {" "}
                     <a href="blog-full-width-single-post.html">
-                      <img src="images/blog-widget-02.jpg" alt="" />
+                      <Image width="100" height="100"  src="/images/blog-widget-02.jpg" alt="" />
                     </a>{" "}
                   </div>
                   <div className="widget-text">
@@ -309,7 +309,7 @@ export default function Blog(){
                   <div className="widget-thumb">
                     {" "}
                     <a href="blog-full-width-single-post.html">
-                      <img src="images/blog-widget-01.jpg" alt="" />
+                      <Image width="100" height="100"  src="/images/blog-widget-01.jpg" alt="" />
                     </a>{" "}
                   </div>
                   <div className="widget-text">
@@ -420,7 +420,7 @@ export default function Blog(){
           <div className="widget utf-sidebar-widget-item">
             <div className="utf-detail-banner-add-section">
               <a href="#">
-                <img src="images/banner-add-2.jpg" alt="banner-add-2" />
+                <Image width="100" height="100"  src="/images/banner-add-2.jpg" alt="banner-add-2" />
               </a>
             </div>
           </div>

@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 export default function FeaturedProperties(){
     return(
         <>
@@ -31,9 +32,9 @@ export default function FeaturedProperties(){
                       <span className="for-sale">For Sale</span>
                     </div>
                     <div className="utf-listing-img-content-item">
-                      <img
+                      <Image width="100" height="100"
                         className="utf-user-picture"
-                        src="images/call.png"
+                        src="/images/call.png"
                         alt="user_1"
                       />
                       <span
@@ -51,13 +52,13 @@ export default function FeaturedProperties(){
                     </div>
                     <div className="utf-listing-carousel-item">
                       <div>
-                        <img src="images/listing-01.jpg" alt="" />
+                        <Image width="100" height="100" src="/images/listing-01.jpg" alt="" />
                       </div>
                       <div>
-                        <img src="images/listing-01.jpg" alt="" />
+                        <Image width="100" height="100" src="/images/listing-01.jpg" alt="" />
                       </div>
                       <div>
-                        <img src="images/listing-01.jpg" alt="" />
+                        <Image width="100" height="100" src="/images/listing-01.jpg" alt="" />
                       </div>
                     </div>
                   </Link>
@@ -109,9 +110,9 @@ export default function FeaturedProperties(){
                       <span className="for-rent">For Rent</span>
                     </div>
                     <div className="utf-listing-img-content-item">
-                      <img
+                      <Image width="100" height="100"
                         className="utf-user-picture"
-                        src="images/call.png"
+                        src="/images/call.png"
                         alt="user_1"
                       />
                       <span
@@ -127,7 +128,7 @@ export default function FeaturedProperties(){
                         data-tip-content="Video"
                       />
                     </div>
-                    <img src="images/listing-02.jpg" alt="" />{" "}
+                    <Image width="100" height="100" src="/images/listing-02.jpg" alt="" />{" "}
                   </Link>
                   <div className="utf-listing-content">
                     <div className="utf-listing-title">
@@ -178,9 +179,9 @@ export default function FeaturedProperties(){
                       <span className="for-rent">For Rent</span>
                     </div>
                     <div className="utf-listing-img-content-item">
-                      <img
+                      <Image width="100" height="100"
                         className="utf-user-picture"
-                        src="images/call.png"
+                        src="/images/call.png"
                         alt="user_1"
                       />
                       <span
@@ -196,7 +197,7 @@ export default function FeaturedProperties(){
                         data-tip-content="Video"
                       />
                     </div>
-                    <img src="images/listing-03.jpg" alt="" />{" "}
+                    <Image width="100" height="100" src="/images/listing-03.jpg" alt="" />{" "}
                   </Link>
                   <div className="utf-listing-content">
                     <div className="utf-listing-title">
@@ -246,9 +247,9 @@ export default function FeaturedProperties(){
                       <span className="for-sale">For Sale</span>
                     </div>
                     <div className="utf-listing-img-content-item">
-                      <img
+                      <Image width="100" height="100"
                         className="utf-user-picture"
-                        src="images/call.png"
+                        src="/images/call.png"
                         alt="user_1"
                       />
                       <span
@@ -266,10 +267,10 @@ export default function FeaturedProperties(){
                     </div>
                     <div className="utf-listing-carousel-item">
                       <div>
-                        <img src="images/listing-04.jpg" alt="" />
+                        <Image width="100" height="100" src="/images/listing-04.jpg" alt="" />
                       </div>
                       <div>
-                        <img src="images/listing-04.jpg" alt="" />
+                        <Image width="100" height="100" src="/images/listing-04.jpg" alt="" />
                       </div>
                     </div>
                   </Link>
@@ -321,9 +322,9 @@ export default function FeaturedProperties(){
                       <span className="for-sale">For Sale</span>
                     </div>
                     <div className="utf-listing-img-content-item">
-                      <img
+                      <Image width="100" height="100"
                         className="utf-user-picture"
-                        src="images/call.png"
+                        src="/images/call.png"
                         alt="user_1"
                       />
                       <span
@@ -339,7 +340,7 @@ export default function FeaturedProperties(){
                         data-tip-content="Video"
                       />
                     </div>
-                    <img src="images/listing-05.jpg" alt="" />{" "}
+                    <Image width="100" height="100" src="/images/listing-05.jpg" alt="" />{" "}
                   </Link>
                   <div className="utf-listing-content">
                     <div className="utf-listing-title">

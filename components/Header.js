@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 export default function Header(){
     return(
         <>
@@ -9,7 +10,7 @@ export default function Header(){
           <div className="left-side">
             <div id="logo">
               <Link href="/">
-                <img src="images/logo.png" alt="" />
+                <Image width="100" height="100" src="/images/logo.png" alt="" />
               </Link>
             </div>
             <div className="mmenu-trigger">

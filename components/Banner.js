@@ -30,7 +30,7 @@ export default function Banner(){
               <a href="#!" id="property" style={{color:'#fff'}}>Search Property</a>
               </div>
               <div className="col-md-5 navbuttons" id="navbutton2" style={{borderRadius:'30px',border:'1px solid #0872c4'}}>
-              <a href="#!" id="investment" style={{color:'#fff',fontWeight:'600'}}>Tru'Value</a>
+              <a href="#!" id="investment" style={{color:'#fff',fontWeight:'600'}}>True Value</a>
               </div>
               </div>
               <div className="utf-search-type-arrow" />

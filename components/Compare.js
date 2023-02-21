@@ -1,3 +1,4 @@
+import Image from "next/image"
 export default function Compare(){
     return(
         <>
@@ -27,7 +28,7 @@ export default function Compare(){
                   Renovated Luxury Apartment <i>$420,000</i>
                 </span>{" "}
               </div>
-              <img src="images/listing-01.jpg" alt="" />{" "}
+              <Image width="100" height="100"  src="/images/listing-01.jpg" alt="" />{" "}
             </a>
           </div>
           {/* Property */}
@@ -48,7 +49,7 @@ export default function Compare(){
                   Renovated Luxury Apartment <i>$420,000</i>
                 </span>{" "}
               </div>
-              <img src="images/listing-02.jpg" alt="" />{" "}
+              <Image width="100" height="100"  src="/images/listing-02.jpg" alt="" />{" "}
             </a>
           </div>
         </div>

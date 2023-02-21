@@ -1,3 +1,4 @@
+import Image from "next/image"
 export default function Footer(){
     return(
         <>
@@ -6,9 +7,9 @@ export default function Footer(){
         <div className="row">
           <div className="col-md-4 col-sm-12 col-xs-12">
             <a href="index.html">
-              <img
+              <Image width="100" height="100"
                 className="footer-logo"
-                src="images/logo.png"
+                src="/images/logo.png"
                 alt=""
               />
             </a>

@@ -1,3 +1,4 @@
+import Image from "next/image"
 export default function BlogSection(){
     return(
         <section
@@ -26,7 +27,7 @@ export default function BlogSection(){
         <div className="blog-post">
           <a href="blog_detail_right_sidebar.html" className="post-img">
             {" "}
-            <img src="images/blog-post-01.jpg" alt="" />{" "}
+            <Image width="100" height="100"  src="/images/blog-post-01.jpg" alt="" />{" "}
           </a>
           <div className="utf-post-content-area">
             <h3>
@@ -49,7 +50,7 @@ export default function BlogSection(){
         <div className="blog-post">
           <a href="blog_detail_right_sidebar.html" className="post-img">
             {" "}
-            <img src="images/blog-post-02.jpg" alt="" />{" "}
+            <Image width="100" height="100"  src="/images/blog-post-02.jpg" alt="" />{" "}
           </a>
           <div className="utf-post-content-area">
             <h3>
@@ -71,7 +72,7 @@ export default function BlogSection(){
         <div className="blog-post">
           <a href="blog_detail_right_sidebar.html" className="post-img">
             {" "}
-            <img src="images/blog-post-03.jpg" alt="" />{" "}
+            <Image width="100" height="100"  src="/images/blog-post-03.jpg" alt="" />{" "}
           </a>
           <div className="utf-post-content-area">
             <h3>
