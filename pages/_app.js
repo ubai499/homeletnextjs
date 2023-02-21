@@ -33,7 +33,7 @@ export default function App({ Component, pageProps }) {
     <Head/>
     {/* <Loading/> */}
     <Component {...pageProps} />
-    <Scripts/>
+    {/* <Scripts/> */}
     </>
   ) 
 }

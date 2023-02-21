@@ -1,7 +1,7 @@
 import Footer from "components/Footer";
 import Header from "components/Header";
 import Topbar from "components/Topbar";
-
+import Image from "next/image";
 export default function Agents(){
     return(
         <>
@@ -65,7 +65,7 @@ export default function Agents(){
                 {" "}
                 <a href="agents-profile.html">
                   {" "}
-                  <img src="images/agent-01.jpg" alt="" />{" "}
+                  <Image width="100" height="100" src="/images/agent-01.jpg" alt="" />{" "}
                   <span className="view-profile-btn">View Profile</span>{" "}
                 </a>{" "}
               </div>
@@ -90,7 +90,7 @@ export default function Agents(){
                 {" "}
                 <a href="agents-profile.html">
                   {" "}
-                  <img src="images/agent-02.jpg" alt="" />{" "}
+                  <Image width="100" height="100" src="/images/agent-02.jpg" alt="" />{" "}
                   <span className="view-profile-btn">View Profile</span>{" "}
                 </a>{" "}
               </div>
@@ -115,7 +115,7 @@ export default function Agents(){
                 {" "}
                 <a href="agents-profile.html">
                   {" "}
-                  <img src="images/agent-03.jpg" alt="" />{" "}
+                  <Image width="100" height="100" src="/images/agent-03.jpg" alt="" />{" "}
                   <span className="view-profile-btn">View Profile</span>{" "}
                 </a>{" "}
               </div>
@@ -140,7 +140,7 @@ export default function Agents(){
                 {" "}
                 <a href="agents-profile.html">
                   {" "}
-                  <img src="images/agent-04.jpg" alt="" />{" "}
+                  <Image width="100" height="100" src="/images/agent-04.jpg" alt="" />{" "}
                   <span className="view-profile-btn">View Profile</span>{" "}
                 </a>{" "}
               </div>
@@ -165,7 +165,7 @@ export default function Agents(){
                 {" "}
                 <a href="agents-profile.html">
                   {" "}
-                  <img src="images/agent-05.jpg" alt="" />{" "}
+                  <Image width="100" height="100" src="/images/agent-05.jpg" alt="" />{" "}
                   <span className="view-profile-btn">View Profile</span>{" "}
                 </a>{" "}
               </div>
@@ -190,7 +190,7 @@ export default function Agents(){
                 {" "}
                 <a href="agents-profile.html">
                   {" "}
-                  <img src="images/agent-06.jpg" alt="" />{" "}
+                  <Image width="100" height="100" src="/images/agent-06.jpg" alt="" />{" "}
                   <span className="view-profile-btn">View Profile</span>{" "}
                 </a>{" "}
               </div>
@@ -215,7 +215,7 @@ export default function Agents(){
                 {" "}
                 <a href="agents-profile.html">
                   {" "}
-                  <img src="images/agent-07.jpg" alt="" />{" "}
+                  <Image width="100" height="100" src="/images/agent-07.jpg" alt="" />{" "}
                   <span className="view-profile-btn">View Profile</span>{" "}
                 </a>{" "}
               </div>
@@ -240,7 +240,7 @@ export default function Agents(){
                 {" "}
                 <a href="agents-profile.html">
                   {" "}
-                  <img src="images/agent-08.jpg" alt="" />{" "}
+                  <Image width="100" height="100" src="/images/agent-08.jpg" alt="" />{" "}
                   <span className="view-profile-btn">View Profile</span>{" "}
                 </a>{" "}
               </div>
@@ -265,7 +265,7 @@ export default function Agents(){
                 {" "}
                 <a href="agents-profile.html">
                   {" "}
-                  <img src="images/agent-09.jpg" alt="" />{" "}
+                  <Image width="100" height="100" src="/images/agent-09.jpg" alt="" />{" "}
                   <span className="view-profile-btn">View Profile</span>{" "}
                 </a>{" "}
               </div>
@@ -290,7 +290,7 @@ export default function Agents(){
                 {" "}
                 <a href="agents-profile.html">
                   {" "}
-                  <img src="images/agent-10.jpg" alt="" />{" "}
+                  <Image width="100" height="100" src="/images/agent-10.jpg" alt="" />{" "}
                   <span className="view-profile-btn">View Profile</span>{" "}
                 </a>{" "}
               </div>
@@ -315,7 +315,7 @@ export default function Agents(){
                 {" "}
                 <a href="agents-profile.html">
                   {" "}
-                  <img src="images/agent-01.jpg" alt="" />{" "}
+                  <Image width="100" height="100" src="/images/agent-01.jpg" alt="" />{" "}
                   <span className="view-profile-btn">View Profile</span>{" "}
                 </a>{" "}
               </div>
@@ -340,7 +340,7 @@ export default function Agents(){
                 {" "}
                 <a href="agents-profile.html">
                   {" "}
-                  <img src="images/agent-02.jpg" alt="" />{" "}
+                  <Image width="100" height="100" src="/images/agent-02.jpg" alt="" />{" "}
                   <span className="view-profile-btn">View Profile</span>{" "}
                 </a>{" "}
               </div>
