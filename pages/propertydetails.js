@@ -3,35 +3,10 @@ import Header from "components/Header";
 import Topbar from "components/Topbar";
 import Image from "next/image";
 import Head from "next/head";
+import PropertyImages from "components/PropertyImages";
 export default function PropertyDetails(){
     return(
         <>
-        <Head>
-        <meta charSet="utf-8" />
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="author" content="" />
-        <meta name="theme-color" content="#e33324" />
-        <meta name="description" content="Real Estate HTML Template" />
-        <meta
-        name="keywords"
-        content="Apartment, Estate Agency, Housing, Real Estate, Real Estate Broker, Real Estate Property, Single Property"
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Homelet.pk | Property Listing</title>
-        {/*  Favicon */}
-        <link rel="shortcut icon" href="favicon.ico" />
-        {/* CSS */}
-        <link rel="stylesheet" href="css/stylesheet.css" />
-        {/* Google Fonts */}
-        <link
-        href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800&display=swap"
-        rel="stylesheet"
-        />
-        <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap"
-        rel="stylesheet"
-        />
-        </Head>
         <Topbar/>
         <Header/>
 
@@ -81,131 +56,10 @@ export default function PropertyDetails(){
     <div className="col-md-12">
       {/* Slider */}
       <div className="property-slider default slick-initialized slick-slider">
-        <button
-          className="slick-prev slick-arrow"
-          aria-label="Previous"
-          type="button"
-          style={{ display: "block" }}
-        >
-          Previous
-        </button>
-        <div className="slick-list draggable" style={{ height: 400 }}>
-          <div className="slick-track" style={{ opacity: 1, width: 7080 }}>
-            <a
-              href="/images/single-property-01.jpg"
-              data-background-image="/images/single-property-01.jpg"
-              className="item mfp-gallery slick-slide slick-current slick-active"
-              data-slick-index={0}
-              style={{
-                backgroundImage: 'url("/images/single-property-01.jpg")',
-                width: 1180,
-                position: "relative",
-                left: 0,
-                top: 0,
-                zIndex: 999,
-                opacity: 1
-              }}
-              aria-hidden="false"
-              tabIndex={0}
-            />
-            <a
-              href="/images/single-property-02.jpg"
-              data-background-image="/images/single-property-02.jpg"
-              className="item mfp-gallery slick-slide"
-              data-slick-index={1}
-              style={{
-                backgroundImage: 'url("/images/single-property-02.jpg")',
-                width: 1180,
-                position: "relative",
-                left: "-1180px",
-                top: 0,
-                zIndex: 998,
-                opacity: 0
-              }}
-              aria-hidden="true"
-              tabIndex={-1}
-            />
-            <a
-              href="/images/single-property-03.jpg"
-              data-background-image="/images/single-property-03.jpg"
-              className="item mfp-gallery slick-slide"
-              data-slick-index={2}
-              style={{
-                backgroundImage: 'url("/images/single-property-03.jpg")',
-                width: 1180,
-                position: "relative",
-                left: "-2360px",
-                top: 0,
-                zIndex: 998,
-                opacity: 0
-              }}
-              aria-hidden="true"
-              tabIndex={-1}
-            />
-            <a
-              href="/images/single-property-04.jpg"
-              data-background-image="/images/single-property-04.jpg"
-              className="item mfp-gallery slick-slide"
-              data-slick-index={3}
-              style={{
-                backgroundImage: 'url("/images/single-property-04.jpg")',
-                width: 1180,
-                position: "relative",
-                left: "-3540px",
-                top: 0,
-                zIndex: 998,
-                opacity: 0
-              }}
-              aria-hidden="true"
-              tabIndex={-1}
-            />
-            <a
-              href="/images/single-property-05.jpg"
-              data-background-image="/images/single-property-05.jpg"
-              className="item mfp-gallery slick-slide"
-              data-slick-index={4}
-              style={{
-                backgroundImage: 'url("/images/single-property-05.jpg")',
-                width: 1180,
-                position: "relative",
-                left: "-4720px",
-                top: 0,
-                zIndex: 998,
-                opacity: 0
-              }}
-              aria-hidden="true"
-              tabIndex={-1}
-            />
-            <a
-              href="/images/single-property-06.jpg"
-              data-background-image="/images/single-property-06.jpg"
-              className="item mfp-gallery slick-slide"
-              data-slick-index={5}
-              style={{
-                backgroundImage: 'url("/images/single-property-06.jpg")',
-                width: 1180,
-                position: "relative",
-                left: "-5900px",
-                top: 0,
-                zIndex: 998,
-                opacity: 0
-              }}
-              aria-hidden="true"
-              tabIndex={-1}
-            />
-          </div>
-        </div>
-        <button
-          className="slick-next slick-arrow"
-          aria-label="Next"
-          type="button"
-          style={{ display: "block" }}
-        >
-          Next
-        </button>
+       <PropertyImages/>
       </div>
       {/* Slider Thumbs */}
-      <div className="property-slider-nav slick-initialized slick-slider slick-dotted">
+      {/* <div className="property-slider-nav slick-initialized slick-slider slick-dotted">
         <button
           className="slick-prev slick-arrow"
           aria-label="Previous"
@@ -501,7 +355,7 @@ export default function PropertyDetails(){
             </button>
           </li>
         </ul>
-      </div>
+      </div> */}
     </div>
   </div>
 </div>
@@ -1274,7 +1128,7 @@ export default function PropertyDetails(){
           </div>
         </div>
         {/* Widget */}
-        <div className="widget utf-sidebar-widget-item">
+        {/* <div className="widget utf-sidebar-widget-item">
           <div className="utf-boxed-list-headline-item">
             <h3>Property Details</h3>
           </div>
@@ -1313,7 +1167,7 @@ export default function PropertyDetails(){
             <div className="tip-content">Print Property</div>
           </button>
           <div className="clearfix" />
-        </div>
+        </div> */}
         {/* Widget / End */}
         {/* Widget */}
         <div className="widget utf-sidebar-widget-item">
@@ -1944,8 +1798,6 @@ export default function PropertyDetails(){
     {/* Sidebar / End */}
   </div>
 </div>
-
-
         <Footer/>
         
         </>

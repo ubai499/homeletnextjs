@@ -1,9 +1,11 @@
 import Image from "next/image"
-export default function Compare(){
+import { useState } from "react";
+const Compare = () =>{
+  const [cliked, setClicked] = useState(true);
     return(
         <>
-        <div className="utf-compare-slidebar-area">
-      <div className="utf-smt-trigger-item" />
+        <div className={cliked ? "utf-compare-slidebar-area" : "utf-compare-slidebar-area active"}>
+      <div className="utf-smt-trigger-item" onClick={() => setClicked(current => !current)}/>
       <div className="utf-smt-content">
         <h4>
           Compare Property
@@ -28,7 +30,7 @@ export default function Compare(){
                   Renovated Luxury Apartment <i>$420,000</i>
                 </span>{" "}
               </div>
-              <Image width="100" height="100"  src="/images/listing-01.jpg" alt="" />{" "}
+              <Image width="600" height="100"  src="/images/listing-01.jpg" alt="" />{" "}
             </a>
           </div>
           {/* Property */}
@@ -49,7 +51,7 @@ export default function Compare(){
                   Renovated Luxury Apartment <i>$420,000</i>
                 </span>{" "}
               </div>
-              <Image width="100" height="100"  src="/images/listing-02.jpg" alt="" />{" "}
+              <Image width="600" height="100"  src="/images/listing-02.jpg" alt="" />{" "}
             </a>
           </div>
         </div>
@@ -63,3 +65,4 @@ export default function Compare(){
         </>
     )
 }
+export default Compare

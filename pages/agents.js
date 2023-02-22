@@ -6,49 +6,18 @@ import Head from "next/head";
 export default function Agents(){
     return(
         <>
-        <Head>
-        <meta charSet="utf-8" />
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="author" content="" />
-        <meta name="theme-color" content="#e33324" />
-        <meta name="description" content="Real Estate HTML Template" />
-        <meta
-        name="keywords"
-        content="Apartment, Estate Agency, Housing, Real Estate, Real Estate Broker, Real Estate Property, Single Property"
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Homelet.pk | Property Listing</title>
-        {/*  Favicon */}
-        <link rel="shortcut icon" href="favicon.ico" />
-        {/* CSS */}
-        <link rel="stylesheet" href="css/stylesheet.css" />
-        {/* Google Fonts */}
-        <link
-        href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800&display=swap"
-        rel="stylesheet"
-        />
-        <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap"
-        rel="stylesheet"
-        />
-        </Head>
         <Topbar/>
         <Header/>
         {/* TITLEBAR */}
         <div
-  className="parallax titlebar"
-  data-background="images/listings-parallax.jpg"
-  data-color="rgba(48, 48, 48, 1)"
-  data-color-opacity="0.8"
-  data-img-width={800}
-  data-img-height={505}
-  style={{
-    backgroundImage: 'url("images/listings-parallax.jpg")',
-    backgroundAttachment: "fixed",
-    backgroundSize: "1796.44px 1134px",
-    backgroundPosition: "50% -134.25px"
-  }}
->
+        className="parallax titlebar"
+        style={{
+        backgroundImage: 'url("images/listings-parallax.jpg")',
+        backgroundAttachment: "fixed",
+        backgroundSize: "cover",
+        backgroundPosition: "50% -134.25px"
+        }}
+        >
   <div
     className="parallax-overlay"
     style={{ backgroundColor: "rgb(48, 48, 48)", opacity: "0.8" }}
@@ -71,7 +40,7 @@ export default function Agents(){
       </div>
     </div>
   </div>
-</div>
+        </div>
 
         {/* CONTENT */}
         <div className="container">
@@ -92,7 +61,7 @@ export default function Agents(){
                 {" "}
                 <a href="agents-profile.html">
                   {" "}
-                  <Image width="100" height="100" src="/images/agent-01.jpg" alt="" />{" "}
+                  <Image width="800" height="100" src="/images/agent-01.jpg" alt="" />{" "}
                   <span className="view-profile-btn">View Profile</span>{" "}
                 </a>{" "}
               </div>
@@ -117,7 +86,7 @@ export default function Agents(){
                 {" "}
                 <a href="agents-profile.html">
                   {" "}
-                  <Image width="100" height="100" src="/images/agent-02.jpg" alt="" />{" "}
+                  <Image width="800" height="100" src="/images/agent-02.jpg" alt="" />{" "}
                   <span className="view-profile-btn">View Profile</span>{" "}
                 </a>{" "}
               </div>
@@ -142,7 +111,7 @@ export default function Agents(){
                 {" "}
                 <a href="agents-profile.html">
                   {" "}
-                  <Image width="100" height="100" src="/images/agent-03.jpg" alt="" />{" "}
+                  <Image width="800" height="100" src="/images/agent-03.jpg" alt="" />{" "}
                   <span className="view-profile-btn">View Profile</span>{" "}
                 </a>{" "}
               </div>
@@ -167,7 +136,7 @@ export default function Agents(){
                 {" "}
                 <a href="agents-profile.html">
                   {" "}
-                  <Image width="100" height="100" src="/images/agent-04.jpg" alt="" />{" "}
+                  <Image width="800" height="100" src="/images/agent-04.jpg" alt="" />{" "}
                   <span className="view-profile-btn">View Profile</span>{" "}
                 </a>{" "}
               </div>
@@ -192,7 +161,7 @@ export default function Agents(){
                 {" "}
                 <a href="agents-profile.html">
                   {" "}
-                  <Image width="100" height="100" src="/images/agent-05.jpg" alt="" />{" "}
+                  <Image width="800" height="100" src="/images/agent-05.jpg" alt="" />{" "}
                   <span className="view-profile-btn">View Profile</span>{" "}
                 </a>{" "}
               </div>
@@ -217,7 +186,7 @@ export default function Agents(){
                 {" "}
                 <a href="agents-profile.html">
                   {" "}
-                  <Image width="100" height="100" src="/images/agent-06.jpg" alt="" />{" "}
+                  <Image width="800" height="100" src="/images/agent-06.jpg" alt="" />{" "}
                   <span className="view-profile-btn">View Profile</span>{" "}
                 </a>{" "}
               </div>
@@ -242,7 +211,7 @@ export default function Agents(){
                 {" "}
                 <a href="agents-profile.html">
                   {" "}
-                  <Image width="100" height="100" src="/images/agent-07.jpg" alt="" />{" "}
+                  <Image width="800" height="100" src="/images/agent-07.jpg" alt="" />{" "}
                   <span className="view-profile-btn">View Profile</span>{" "}
                 </a>{" "}
               </div>
@@ -267,7 +236,7 @@ export default function Agents(){
                 {" "}
                 <a href="agents-profile.html">
                   {" "}
-                  <Image width="100" height="100" src="/images/agent-08.jpg" alt="" />{" "}
+                  <Image width="800" height="100" src="/images/agent-08.jpg" alt="" />{" "}
                   <span className="view-profile-btn">View Profile</span>{" "}
                 </a>{" "}
               </div>
@@ -292,7 +261,7 @@ export default function Agents(){
                 {" "}
                 <a href="agents-profile.html">
                   {" "}
-                  <Image width="100" height="100" src="/images/agent-09.jpg" alt="" />{" "}
+                  <Image width="800" height="100" src="/images/agent-09.jpg" alt="" />{" "}
                   <span className="view-profile-btn">View Profile</span>{" "}
                 </a>{" "}
               </div>
@@ -317,7 +286,7 @@ export default function Agents(){
                 {" "}
                 <a href="agents-profile.html">
                   {" "}
-                  <Image width="100" height="100" src="/images/agent-10.jpg" alt="" />{" "}
+                  <Image width="800" height="100" src="/images/agent-10.jpg" alt="" />{" "}
                   <span className="view-profile-btn">View Profile</span>{" "}
                 </a>{" "}
               </div>
@@ -342,7 +311,7 @@ export default function Agents(){
                 {" "}
                 <a href="agents-profile.html">
                   {" "}
-                  <Image width="100" height="100" src="/images/agent-01.jpg" alt="" />{" "}
+                  <Image width="800" height="100" src="/images/agent-01.jpg" alt="" />{" "}
                   <span className="view-profile-btn">View Profile</span>{" "}
                 </a>{" "}
               </div>
@@ -367,7 +336,7 @@ export default function Agents(){
                 {" "}
                 <a href="agents-profile.html">
                   {" "}
-                  <Image width="100" height="100" src="/images/agent-02.jpg" alt="" />{" "}
+                  <Image width="800" height="100" src="/images/agent-02.jpg" alt="" />{" "}
                   <span className="view-profile-btn">View Profile</span>{" "}
                 </a>{" "}
               </div>
@@ -389,7 +358,7 @@ export default function Agents(){
     <div className="col-md-12">
       <div className="clearfix" />
       {/* Pagination */}
-      <div className="utf-pagination-container margin-top-20">
+      {/* <div className="utf-pagination-container margin-top-20">
         <nav className="pagination">
           <ul>
             <li>
@@ -419,7 +388,7 @@ export default function Agents(){
             </li>
           </ul>
         </nav>
-      </div>
+      </div> */}
       {/* Pagination / End */}
     </div>
   </div>

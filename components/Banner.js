@@ -1,11 +1,11 @@
-export default function Banner(){
+import { useState } from "react";
+const Banner = () => {
+  const [cliked, setClicked] = useState(true);
     return(
         <>
-        <div
+        <div style={{backgroundImage: 'url(images/home-parallax-1.jpg)',backgroundAttachment:'fixed',backgroundSize:'cover',backgroundPosition:'50% -36.6837px',zIndex:'99',position:'relative',backgroundRepeat:'no-repeat'}}
       className="parallax"
-      data-background="images/home-parallax-1.jpg"
-      data-color="#36383e"
-      data-color-opacity="0.72"
+      data-color-opacity="0.28"
       data-img-width={2500}
       data-img-height={1600}
     >
@@ -16,21 +16,17 @@ export default function Banner(){
       <div className="utf-main-search-container-area">
         <div className="utf-banner-headline-text-part">
           <h2>
-            Search Properties For Sale & Rent in Pakistan <span className="typed-words" />
+            Let's Find Your Dream <span className="typed-words" />
           </h2>
-          {/* <span>
-            From as low as $10 per day with limited time offer
-            discounts.
-          </span> */}
         </div>
         <div className="utf-search-type-block-area">
             <div className="search-type" style={{paddingTop:'20px'}}>
               <div className="row">
               <div className="col-md-6 navbutton" id="navbutton1" style={{borderRadius:'30px'}}>
-              <a href="#!" id="property" style={{color:'#fff'}}>Search Property</a>
+              <a href="#!" id="property">Search Property</a>
               </div>
               <div className="col-md-5 navbuttons" id="navbutton2" style={{borderRadius:'30px',border:'1px solid #0872c4'}}>
-              <a href="#!" id="investment" style={{color:'#fff',fontWeight:'600'}}>True Value</a>
+              <a href="#!" id="investment">True Value</a>
               </div>
               </div>
               <div className="utf-search-type-arrow" />
@@ -63,10 +59,10 @@ export default function Banner(){
                   />
                 </div>
                 
-                <div className="col-md-3 col-sm-6" style={{padding:'0px 2px'}}>
+                <div className="col-md-3 col-sm-6" style={{padding:'0px 2px'}} onClick={() => setClicked(current => !current)}>
                   <a
                     href="#"
-                    className="utf-utf-more-search-options-area-button"
+                    className={cliked ? "utf-utf-more-search-options-area-button" : "utf-utf-more-search-options-area-button active"}
                     data-open-title="Property Type"
                     data-close-title="Property Type"
                   />
@@ -79,7 +75,7 @@ export default function Banner(){
                 </div>
   
               </div>
-              <div className="utf-more-search-options-area">
+              <div className={cliked ? "utf-more-search-options-area" : "utf-more-search-options-area active"}>
                 <div className="utf-more-search-options-area-container">
   
                   <div className="row">
@@ -530,7 +526,7 @@ export default function Banner(){
           <div className="utf-main-search-box-area">
             <div className="row with-forms">
               
-            <div className="col-md-3 col-sm-6">
+            <div className="col-md-3 col-sm-6" style={{padding:'0px 2px'}}>
                 <select
                   data-placeholder="Buy"
                   title="Buy"
@@ -541,7 +537,7 @@ export default function Banner(){
                 </select>
               </div>
 
-              <div className="col-md-5 col-sm-12">
+              <div className="col-md-5 col-sm-12" style={{padding:'0px 2px'}}>
                 <input
                   type="text"
                   className="ico-01"
@@ -550,23 +546,23 @@ export default function Banner(){
                 />
               </div>
               
-              <div className="col-md-3 col-sm-6">
+              <div className="col-md-3 col-sm-6" style={{padding:'0px 2px'}} onClick={() => setClicked(current => !current)}>
                 <a
                   href="#"
-                  className="utf-utf-more-search-options-area-button"
+                  className={cliked ? "utf-utf-more-search-options-area-button" : "utf-utf-more-search-options-area-button active"}
                   data-open-title="Property Type"
                   data-close-title="Property Type"
                 />
               </div>
 
-              <div className="col-md-1 col-sm-6">
+              <div className="col-md-1 col-sm-6" style={{padding:'0px 2px'}}>
                 <button className="button utf-search-btn-item"  style={{padding:'12px 10px'}}>
                   <i className="fa fa-search"/>
                 </button>
               </div>
 
             </div>
-            <div className="utf-more-search-options-area">
+            <div className={cliked ? "utf-more-search-options-area" : "utf-more-search-options-area active"}>
               <div className="utf-more-search-options-area-container">
 
                 <div className="row">
@@ -738,3 +734,4 @@ export default function Banner(){
         </>
     )
 }
+export default Banner

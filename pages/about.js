@@ -5,50 +5,19 @@ import Head from "next/head";
 export default function About(){
     return(
         <>
-        <Head>
-        <meta charSet="utf-8" />
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="author" content="" />
-        <meta name="theme-color" content="#e33324" />
-        <meta name="description" content="Real Estate HTML Template" />
-        <meta
-        name="keywords"
-        content="Apartment, Estate Agency, Housing, Real Estate, Real Estate Broker, Real Estate Property, Single Property"
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Homelet.pk | Property Listing</title>
-        {/*  Favicon */}
-        <link rel="shortcut icon" href="favicon.ico" />
-        {/* CSS */}
-        <link rel="stylesheet" href="css/stylesheet.css" />
-        {/* Google Fonts */}
-        <link
-        href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800&display=swap"
-        rel="stylesheet"
-        />
-        <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap"
-        rel="stylesheet"
-        />
-        </Head>
         <Topbar/>
         <Header/>
 
         {/* TITLEBAR */}
         <div
-  className="parallax titlebar"
-  data-background="images/listings-parallax.jpg"
-  data-color="rgba(48, 48, 48, 1)"
-  data-color-opacity="0.8"
-  data-img-width={800}
-  data-img-height={505}
-  style={{
-    backgroundImage: 'url("images/listings-parallax.jpg")',
-    backgroundAttachment: "fixed",
-    backgroundSize: "1796.44px 1134px",
-    backgroundPosition: "50% -134.25px"
-  }}
->
+        className="parallax titlebar"
+        style={{
+        backgroundImage: 'url("images/listings-parallax.jpg")',
+        backgroundAttachment: "fixed",
+        backgroundSize: "cover",
+        backgroundPosition: "50% -134.25px"
+        }}
+        >
   <div
     className="parallax-overlay"
     style={{ backgroundColor: "rgb(48, 48, 48)", opacity: "0.8" }}

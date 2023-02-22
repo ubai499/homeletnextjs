@@ -6,49 +6,18 @@ import Head from "next/head";
 export default function Blog(){
     return(
         <>
-        <Head>
-        <meta charSet="utf-8" />
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="author" content="" />
-        <meta name="theme-color" content="#e33324" />
-        <meta name="description" content="Real Estate HTML Template" />
-        <meta
-        name="keywords"
-        content="Apartment, Estate Agency, Housing, Real Estate, Real Estate Broker, Real Estate Property, Single Property"
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Homelet.pk | Property Listing</title>
-        {/*  Favicon */}
-        <link rel="shortcut icon" href="favicon.ico" />
-        {/* CSS */}
-        <link rel="stylesheet" href="css/stylesheet.css" />
-        {/* Google Fonts */}
-        <link
-        href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800&display=swap"
-        rel="stylesheet"
-        />
-        <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap"
-        rel="stylesheet"
-        />
-        </Head>
         <Topbar/>
         <Header/>
         {/* TITLEBAR */}
         <div
-  className="parallax titlebar"
-  data-background="images/listings-parallax.jpg"
-  data-color="rgba(48, 48, 48, 1)"
-  data-color-opacity="0.8"
-  data-img-width={800}
-  data-img-height={505}
-  style={{
-    backgroundImage: 'url("images/listings-parallax.jpg")',
-    backgroundAttachment: "fixed",
-    backgroundSize: "1796.44px 1134px",
-    backgroundPosition: "50% -134.25px"
-  }}
->
+        className="parallax titlebar"
+        style={{
+        backgroundImage: 'url("images/listings-parallax.jpg")',
+        backgroundAttachment: "fixed",
+        backgroundSize: "cover",
+        backgroundPosition: "50% -134.25px"
+        }}
+        >
   <div
     className="parallax-overlay"
     style={{ backgroundColor: "rgb(48, 48, 48)", opacity: "0.8" }}
@@ -82,28 +51,23 @@ export default function Blog(){
         <div className="blog-post">
           <a href="blog_detail_right_sidebar.html" className="post-img">
             {" "}
-            <Image width="100" height="100"  src="/images/blog-post-01.jpg" alt="" />{" "}
+            <Image width="800" height="300"  src="/images/blog-post-01.jpg" alt="" />{" "}
           </a>
           <div className="utf-post-content-area">
             <h3>
               <a href="blog_detail_right_sidebar.html">
-                11 Tips to Help You Get New Clients Through Cold Calling.
+                Top Housing Societies in Pakistan
               </a>
             </h3>
             <ul className="post-meta">
-              <li>By, John Williams</li>
-              <li>12 Jan, 2021</li>
-              <li>
+              <li>2 Weeks Ago</li>
+              <li>27 Jan, 2023</li>
+              {/* <li>
                 <a href="#">5 Comments</a>
-              </li>
+              </li> */}
             </ul>
             <p>
-              Lorem Ipsum is simply dummy text of printing and type setting
-              industry. Lorem Ipsum been industry standard dummy text ever
-              since, when an unknown printer took a galley of type and scrambled
-              it to make a type specimen book. It has survived not only five
-              centuries, but also the leap into electronic type setting,
-              remaining essentially unchanged.
+            Rawalpindi and Islamabad are two of the most vibrant cities in Pakistan. These cities have a lot to offer in terms of....
             </p>
           </div>
         </div>
@@ -112,28 +76,23 @@ export default function Blog(){
         <div className="blog-post">
           <a href="blog_detail_right_sidebar.html" className="post-img">
             {" "}
-            <Image width="100" height="100"  src="/images/blog-post-02.jpg" alt="" />{" "}
+            <Image width="800" height="300"  src="/images/blog-post-02.jpg" alt="" />{" "}
           </a>
           <div className="utf-post-content-area">
             <h3>
               <a href="blog_detail_left_sidebar.html">
-                The Best (and Worst) Canadian Merchant Account Providers.
+                How to Invest in Real Estate?
               </a>
             </h3>
             <ul className="post-meta">
-              <li>By, John Williams</li>
-              <li>12 Jan, 2021</li>
-              <li>
+              <li>A Month Ago</li>
+              <li>17, Jan 2023</li>
+              {/* <li>
                 <a href="#">5 Comments</a>
-              </li>
+              </li> */}
             </ul>
             <p>
-              Lorem Ipsum is simply dummy text of printing and type setting
-              industry. Lorem Ipsum been industry standard dummy text ever
-              since, when an unknown printer took a galley of type and scrambled
-              it to make a type specimen book. It has survived not only five
-              centuries, but also the leap into electronic type setting,
-              remaining essentially unchanged.
+            Investing your money can be a great way to grow your wealth over time, but with so many different options to....
             </p>
           </div>
         </div>
@@ -142,37 +101,32 @@ export default function Blog(){
         <div className="blog-post">
           <a href="blog_detail_right_sidebar.html" className="post-img">
             {" "}
-            <Image width="100" height="100"  src="/images/blog-post-03.jpg" alt="" />{" "}
+            <Image width="800" height="300"  src="/images/blog-post-03.jpg" alt="" />{" "}
           </a>
           <div className="utf-post-content-area">
             <h3>
               <a href="blog_detail_right_sidebar.html">
-                The Best (and Worst) Canadian Merchant Account Providers.
+              Digital Marketing & Real Estate
               </a>
             </h3>
             <ul className="post-meta">
-              <li>By, John Williams</li>
-              <li>12 Jan, 2021</li>
-              <li>
+              <li>A Month Ago</li>
+              <li>16 Jan, 2023</li>
+              {/* <li>
                 <a href="#">5 Comments</a>
-              </li>
+              </li> */}
             </ul>
             <p>
-              Lorem Ipsum is simply dummy text of printing and type setting
-              industry. Lorem Ipsum been industry standard dummy text ever
-              since, when an unknown printer took a galley of type and scrambled
-              it to make a type specimen book. It has survived not only five
-              centuries, but also the leap into electronic type setting,
-              remaining essentially unchanged.
+            Digital marketing has become an essential tool for real estate companies and agents in recent years. With the rise of.....
             </p>
           </div>
         </div>
         {/* Blog Post / End */}
         {/* Blog Post */}
-        <div className="blog-post">
+        {/* <div className="blog-post">
           <a href="blog_detail_right_sidebar.html" className="post-img">
             {" "}
-            <Image width="100" height="100"  src="/images/blog-post-04.jpg" alt="" />{" "}
+            <Image width="800" height="300"  src="/images/blog-post-04.jpg" alt="" />{" "}
           </a>
           <div className="utf-post-content-area">
             <h3>
@@ -196,11 +150,11 @@ export default function Blog(){
               remaining essentially unchanged.
             </p>
           </div>
-        </div>
+        </div> */}
         {/* Blog Post / End */}
         {/* Pagination */}
         <div className="clearfix" />
-        <div className="utf-pagination-container">
+        {/* <div className="utf-pagination-container">
           <nav className="pagination">
             <ul>
               <li>
@@ -230,7 +184,7 @@ export default function Blog(){
               </li>
             </ul>
           </nav>
-        </div>
+        </div> */}
         <div className="clearfix" />
       </div>
       {/* Blog Posts / End */}
@@ -238,13 +192,13 @@ export default function Blog(){
       <div className="col-md-4">
         <div className="sidebar">
           {/* Widget */}
-          <div className="widget utf-sidebar-widget-item">
+          {/* <div className="widget utf-sidebar-widget-item">
             <div className="utf-detail-banner-add-section">
               <a href="#">
                 <Image width="100" height="100"  src="/images/banner-add-2.jpg" alt="banner-add-2" />
               </a>
             </div>
-          </div>
+          </div> */}
           {/* Widget / End*/}
           {/* Widget */}
           <div className="widget utf-sidebar-widget-item">
@@ -252,8 +206,7 @@ export default function Blog(){
               <div className="utf-quote-info">
                 <h4>Make a Difference with Your Online Property!</h4>
                 <p>
-                  Lorem Ipsum is simply dummy text of printing and type
-                  industry.
+                  Post Your Property At Homelet Real Estate Portal.
                 </p>
                 <a
                   href="register.html"
@@ -296,16 +249,16 @@ export default function Blog(){
                   <div className="widget-thumb">
                     {" "}
                     <a href="blog-full-width-single-post.html">
-                      <Image width="100" height="100"  src="/images/blog-widget-03.jpg" alt="" />
+                      <Image width="100" height="100"  src="/images/blog-post-01.jpg" alt="" />
                     </a>{" "}
                   </div>
                   <div className="widget-text">
                     <h5>
                       <a href="blog-full-width-single-post.html">
-                        How to Woo a Recruiter and Land Your Dream.
+                      Top Housing Societies in Pakistan
                       </a>
                     </h5>
-                    <span>12 Jan, 2021</span>
+                    <span>27 Jan, 2023</span>
                   </div>
                   <div className="clearfix" />
                 </div>
@@ -316,16 +269,16 @@ export default function Blog(){
                   <div className="widget-thumb">
                     {" "}
                     <a href="blog-full-width-single-post.html">
-                      <Image width="100" height="100"  src="/images/blog-widget-02.jpg" alt="" />
+                      <Image width="100" height="100"  src="/images/blog-post-02.jpg" alt="" />
                     </a>{" "}
                   </div>
                   <div className="widget-text">
                     <h5>
                       <a href="blog-full-width-single-post.html">
-                        Hey Its Time To Get Up And Get Hired.
+                      How to Invest in Real Estate?
                       </a>
                     </h5>
-                    <span>12 Jan, 2021</span>
+                    <span>17 Jan, 2023</span>
                   </div>
                   <div className="clearfix" />
                 </div>
@@ -336,16 +289,16 @@ export default function Blog(){
                   <div className="widget-thumb">
                     {" "}
                     <a href="blog-full-width-single-post.html">
-                      <Image width="100" height="100"  src="/images/blog-widget-01.jpg" alt="" />
+                      <Image width="100" height="100"  src="/images/blog-post-03.jpg" alt="" />
                     </a>{" "}
                   </div>
                   <div className="widget-text">
                     <h5>
                       <a href="blog-full-width-single-post.html">
-                        The Best Canadian Merchant Account Providers.
+                      Digital Marketing & Real Estate
                       </a>
                     </h5>
-                    <span>12 Jan, 2021</span>
+                    <span>16 Jan, 2023</span>
                   </div>
                   <div className="clearfix" />
                 </div>
@@ -354,9 +307,9 @@ export default function Blog(){
           </div>
           {/* Widget / End*/}
           {/* Widget */}
-          <div className="widget utf-sidebar-widget-item">
+          {/* <div className="widget utf-sidebar-widget-item">
             <div className="utf-boxed-list-headline-item">
-              <h3>Property Categorie</h3>
+              <h3>Blog Categories</h3>
               <div className="utf-sidebar-categorie">
                 <ul>
                   <li>
@@ -382,7 +335,7 @@ export default function Blog(){
                 </ul>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* Widget / End*/}
           {/* Widget */}
           <div className="widget utf-sidebar-widget-item">
@@ -409,7 +362,7 @@ export default function Blog(){
           </div>
           {/* Widget / End*/}
           {/* Widget */}
-          <div className="widget utf-sidebar-widget-item">
+          {/* <div className="widget utf-sidebar-widget-item">
             <div className="utf-boxed-list-headline-item">
               <h3>Social Sharing</h3>
             </div>
@@ -441,16 +394,16 @@ export default function Blog(){
               </li>
             </ul>
             <div className="clearfix" />
-          </div>
+          </div> */}
           {/* Widget / End*/}
           {/* Widget */}
-          <div className="widget utf-sidebar-widget-item">
+          {/* <div className="widget utf-sidebar-widget-item">
             <div className="utf-detail-banner-add-section">
               <a href="#">
                 <Image width="100" height="100"  src="/images/banner-add-2.jpg" alt="banner-add-2" />
               </a>
             </div>
-          </div>
+          </div> */}
           {/* Widget / End*/}
           <div className="clearfix" />
         </div>

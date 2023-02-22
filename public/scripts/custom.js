@@ -3,7 +3,8 @@ document.getElementById("property").onclick = function() {
     document.getElementById("investmentform").style.display = "none";
     document.getElementById("navbutton1").style.background = "#0984E3";
     document.getElementById("navbutton1").style.border = "1px solid #0984E3";
-    document.getElementById("navbutton2").style.background = "transparent";
+    document.getElementById("navbutton2").style.background = "#fff";
+    document.getElementById("navbutton2").style.color = "#333";
     document.getElementById("navbutton2").style.border = "1px solid #fff";
     // document.getElementById("property").style.color = "#000";
     // document.getElementById("investment").style.background = "transparent";
@@ -13,9 +14,11 @@ document.getElementById("property").onclick = function() {
 document.getElementById("investment").onclick = function() {
     document.getElementById("propertyform").style.display = "none";
     document.getElementById("investmentform").style.display = "block";
-    document.getElementById("navbutton1").style.background = "transparent";
+    document.getElementById("navbutton1").style.background = "#ffff";
+    document.getElementById("navbutton1").style.color = "#333";
     document.getElementById("navbutton1").style.border = "1px solid #fff";
     document.getElementById("navbutton2").style.background = "#0984E3";
+    document.getElementById("navbutton2").style.color = "#fff";
     document.getElementById("navbutton2").style.border = "#0984E3";
 }
 
@@ -55,3 +58,13 @@ document.getElementById("residential").onclick = function() {
     document.getElementById("commercial").style.background = "transparent";
     
     }
+
+    var typed = new Typed('.typed-words', {
+        strings: ["Home.", "Flat.", " Apartment."],
+        typeSpeed: 80,
+        backSpeed: 80,
+        backDelay: 4000,
+        startDelay: 1000,
+        loop: true,
+        showCursor: true
+    });

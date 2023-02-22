@@ -1,20 +1,24 @@
 import Link from "next/link"
 import Image from "next/image"
-export default function Header(){
+import { useState } from "react";
+const Header = () =>{
+  const [cliked, setClicked] = useState(true);
     return(
         <>
+        <nav className={cliked? "mmenu-init mm-menu mm-offcanvas" : "mmenu-init mm-menu mm-offcanvas mm-opened"} id="mm-0" aria-hidden="true"><div class="mm-panels"><div class="mm-panel mm-hasnavbar mm-opened" id="mm-1"><div class="mm-navbar"><a class="mm-title">Menu</a></div><ul class="mm-listview"><li><a href="/">Home</a></li><li><a href="/about">About Us</a></li><li><a href="/contact">Contact Us</a></li><li><a href="/agents">Agents</a></li><li><a href="/blog">Blog</a></li></ul></div></div></nav>
         <header id="header-container" className="fullwidth">
         {/* Header */}
-      <div id="header">
+
+        <div id="header">
         <div className="container">
           <div className="left-side">
             <div id="logo">
               <Link href="/">
-                <Image width="100" height="100" src="/images/logo.png" alt="" />
+                <Image width="300" height="100" src="/images/logo.png" alt="" />
               </Link>
             </div>
-            <div className="mmenu-trigger">
-              <button className="hamburger hamburger--collapse" type="button">
+            <div className="mmenu-trigger" onClick={() => setClicked(current => !current)}>
+              <button className={cliked? "hamburger hamburger--collapse" : "hamburger hamburger--collapse is-active"} type="button">
                 {" "}
                 <span className="hamburger-box">
                   {" "}
@@ -48,21 +52,22 @@ export default function Header(){
           </div>
           <div className="right-side">
             <div className="header-widget">
-              <a
-                href="#utf-signin-dialog-block"
+              <Link
+                href="/login"
                 className="popup-with-zoom-anim log-in-button sign-in"
               >
                 <i className="icon-line-awesome-user" /> <span>Log In</span>
-              </a>
-              <a href="add-new-property.html" className="button border">
+              </Link>
+              <Link href="/addproperty" className="button border">
                 <i className="icon-feather-plus-circle" />{" "}
                 <span>Add Property</span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
-      </div>
-    </header>
+        </div>
+       </header>
         </>
     )
 }
+export default Header

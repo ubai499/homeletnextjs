@@ -1,7 +1,8 @@
 export default function SearchLinks(){
     return(
         <>
-        <div id="footer">
+        <div className="margin-50"></div>
+        <div id="footer2">
       <div className="container">
         <div className="row">
           <div className="col-md-12">
@@ -10,7 +11,7 @@ export default function SearchLinks(){
           </div>
         </div>
         <div className="row">
-          <div className="col-md-3 col-sm-3 col-xs-6">
+          <div className="col-md-3 col-sm-12 col-xs-12">
             <h4>Homes</h4>
             <ul className="utf-footer-links-item">
               <li>
@@ -36,7 +37,7 @@ export default function SearchLinks(){
               </li>
             </ul>
           </div>
-          <div className="col-md-3 col-sm-3 col-xs-6">
+          <div className="col-md-3 col-sm-12 col-xs-12">
             <h4>Flats & Apartments</h4>
             <ul className="utf-footer-links-item">
               <li>
@@ -62,7 +63,7 @@ export default function SearchLinks(){
               </li>
             </ul>
           </div>
-          <div className="col-md-3 col-sm-3 col-xs-6">
+          <div className="col-md-3 col-sm-12 col-xs-12">
             <h4>Plots</h4>
             <ul className="utf-footer-links-item">
               <li>
@@ -88,7 +89,7 @@ export default function SearchLinks(){
               </li>
             </ul>
           </div>
-          <div className="col-md-3 col-sm-3 col-xs-6">
+          <div className="col-md-3 col-sm-12 col-xs-12">
             <h4>Rooms</h4>
             <ul className="utf-footer-links-item">
               <li>
@@ -125,7 +126,7 @@ export default function SearchLinks(){
           </div>
         </div>
         <div className="row">
-          <div className="col-md-4 col-sm-3 col-xs-6">
+          <div className="col-md-4 col-sm-12 col-xs-12">
             <h4>Islamabad</h4>
             <ul className="utf-footer-links-item">
               <li>
@@ -151,7 +152,7 @@ export default function SearchLinks(){
               </li>
             </ul>
           </div>
-          <div className="col-md-4 col-sm-3 col-xs-6">
+          <div className="col-md-4 col-sm-12 col-xs-12">
             <h4>Lahore</h4>
             <ul className="utf-footer-links-item">
               <li>
@@ -177,7 +178,7 @@ export default function SearchLinks(){
               </li>
             </ul>
           </div>
-          <div className="col-md-4 col-sm-3 col-xs-6">
+          <div className="col-md-4 col-sm-12 col-xs-12">
             <h4>Karachi</h4>
             <ul className="utf-footer-links-item">
               <li>
@@ -214,7 +215,7 @@ export default function SearchLinks(){
           </div>
         </div>
         <div className="row">
-          <div className="col-md-4 col-sm-3 col-xs-6">
+          <div className="col-md-4 col-sm-12 col-xs-12">
             <h4>Islamabad</h4>
             <ul className="utf-footer-links-item">
               <li>
@@ -240,7 +241,7 @@ export default function SearchLinks(){
               </li>
             </ul>
           </div>
-          <div className="col-md-4 col-sm-3 col-xs-6">
+          <div className="col-md-4 col-sm-12 col-xs-12">
             <h4>Rawalpindi</h4>
             <ul className="utf-footer-links-item">
               <li>
@@ -266,7 +267,7 @@ export default function SearchLinks(){
               </li>
             </ul>
           </div>
-          <div className="col-md-4 col-sm-3 col-xs-6">
+          <div className="col-md-4 col-sm-12 col-xs-12">
             <h4>Lahore</h4>
             <ul className="utf-footer-links-item">
               <li>
@@ -303,7 +304,7 @@ export default function SearchLinks(){
           </div>
         </div>
         <div className="row">
-          <div className="col-md-4 col-sm-3 col-xs-6">
+          <div className="col-md-4 col-sm-12 col-xs-12">
             <h4>Islamabad</h4>
             <ul className="utf-footer-links-item">
               <li>
@@ -329,7 +330,7 @@ export default function SearchLinks(){
               </li>
             </ul>
           </div>
-          <div className="col-md-4 col-sm-3 col-xs-6">
+          <div className="col-md-4 col-sm-12 col-xs-12">
             <h4>Rawalpindi</h4>
             <ul className="utf-footer-links-item">
               <li>
@@ -355,7 +356,7 @@ export default function SearchLinks(){
               </li>
             </ul>
           </div>
-          <div className="col-md-4 col-sm-3 col-xs-6">
+          <div className="col-md-4 col-sm-12 col-xs-12">
             <h4>Lahore</h4>
             <ul className="utf-footer-links-item">
               <li>
