@@ -1,6 +1,7 @@
 import Footer from "components/Footer"
 import Header from "components/Header"
 import Head from "next/head"
+import Image from "next/image"
 export default function CompareProperties(){
     return(
         <>
@@ -53,7 +54,7 @@ export default function CompareProperties(){
               <a href="#">
                 <div className="utf-smt-img-item">
                   {" "}
-                  <img src="images/listing-01.jpg" alt="" />{" "}
+                  <Image width="100" height="100" src="images/listing-01.jpg" alt="" />{" "}
                   <span className="utf-remove-compare-item">
                     <i className="icon-line-awesome-close" />
                   </span>{" "}
@@ -69,7 +70,7 @@ export default function CompareProperties(){
               <a href="#">
                 <div className="utf-smt-img-item">
                   {" "}
-                  <img src="images/listing-02.jpg" alt="" />{" "}
+                  <Image width="100" height="100" src="images/listing-02.jpg" alt="" />{" "}
                   <span className="utf-remove-compare-item">
                     <i className="icon-line-awesome-close" />
                   </span>{" "}

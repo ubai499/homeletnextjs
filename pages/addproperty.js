@@ -1,5 +1,6 @@
 import Footer from "components/Footer";
 import Header from "components/Header";
+import Image from "next/image";
 
 export default function AddProperty(){
     return(
@@ -13,7 +14,7 @@ export default function AddProperty(){
       <div className="margin-bottom-20">
         <div className="utf-edit-profile-photo-area">
           {" "}
-          <img src="images/agent-02.jpg" alt="" />
+          <Image width="100" height="100" src="images/agent-02.jpg" alt="" />
           <div className="utf-change-photo-btn-item">
             <div className="utf-user-photo-upload">
               {" "}
