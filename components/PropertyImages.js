@@ -67,7 +67,7 @@ export default class PropertyImages extends Component{
     //               <span className="for-sale">For Sale</span>
     //             </div>
     //             <div className="utf-listing-img-content-item">
-    //               <Image width="100" height="100"
+    //               <Image alt="Property Image"width="100" height="100"
     //                 className="utf-user-picture"
     //                 src="/images/call.png"
     //                 alt="user_1"
@@ -87,13 +87,13 @@ export default class PropertyImages extends Component{
     //             </div>
     //             <div className="utf-listing-carousel-item">
     //               <div>
-    //                 <Image width="800" height="100" src="/images/listing-01.jpg" alt="" />
+    //                 <Image alt="Property Image"width="800" height="100" src="/images/listing-01.jpg" alt="" />
     //               </div>
     //               <div>
-    //                 <Image width="800" height="100" src="/images/listing-01.jpg" alt="" />
+    //                 <Image alt="Property Image"width="800" height="100" src="/images/listing-01.jpg" alt="" />
     //               </div>
     //               <div>
-    //                 <Image width="800" height="100" src="/images/listing-01.jpg" alt="" />
+    //                 <Image alt="Property Image"width="800" height="100" src="/images/listing-01.jpg" alt="" />
     //               </div>
     //             </div>
     //           </Link>
@@ -147,7 +147,7 @@ export default class PropertyImages extends Component{
     //               <span className="for-sale">For Sale</span>
     //             </div>
     //             <div className="utf-listing-img-content-item">
-    //               <Image width="100" height="100"
+    //               <Image alt="Property Image"width="100" height="100"
     //                 className="utf-user-picture"
     //                 src="/images/call.png"
     //                 alt="user_1"
@@ -167,13 +167,13 @@ export default class PropertyImages extends Component{
     //             </div>
     //             <div className="utf-listing-carousel-item">
     //               <div>
-    //                 <Image width="800" height="100" src="/images/listing-01.jpg" alt="" />
+    //                 <Image alt="Property Image"width="800" height="100" src="/images/listing-01.jpg" alt="" />
     //               </div>
     //               <div>
-    //                 <Image width="800" height="100" src="/images/listing-01.jpg" alt="" />
+    //                 <Image alt="Property Image"width="800" height="100" src="/images/listing-01.jpg" alt="" />
     //               </div>
     //               <div>
-    //                 <Image width="800" height="100" src="/images/listing-01.jpg" alt="" />
+    //                 <Image alt="Property Image"width="800" height="100" src="/images/listing-01.jpg" alt="" />
     //               </div>
     //             </div>
     //           </Link>
@@ -227,7 +227,7 @@ export default class PropertyImages extends Component{
     //               <span className="for-sale">For Sale</span>
     //             </div>
     //             <div className="utf-listing-img-content-item">
-    //               <Image width="100" height="100"
+    //               <Image alt="Property Image"width="100" height="100"
     //                 className="utf-user-picture"
     //                 src="/images/call.png"
     //                 alt="user_1"
@@ -247,13 +247,13 @@ export default class PropertyImages extends Component{
     //             </div>
     //             <div className="utf-listing-carousel-item">
     //               <div>
-    //                 <Image width="800" height="100" src="/images/listing-01.jpg" alt="" />
+    //                 <Image alt="Property Image"width="800" height="100" src="/images/listing-01.jpg" alt="" />
     //               </div>
     //               <div>
-    //                 <Image width="800" height="100" src="/images/listing-01.jpg" alt="" />
+    //                 <Image alt="Property Image"width="800" height="100" src="/images/listing-01.jpg" alt="" />
     //               </div>
     //               <div>
-    //                 <Image width="800" height="100" src="/images/listing-01.jpg" alt="" />
+    //                 <Image alt="Property Image"width="800" height="100" src="/images/listing-01.jpg" alt="" />
     //               </div>
     //             </div>
     //           </Link>
@@ -307,7 +307,7 @@ export default class PropertyImages extends Component{
     //               <span className="for-sale">For Sale</span>
     //             </div>
     //             <div className="utf-listing-img-content-item">
-    //               <Image width="100" height="100"
+    //               <Image alt="Property Image"width="100" height="100"
     //                 className="utf-user-picture"
     //                 src="/images/call.png"
     //                 alt="user_1"
@@ -327,13 +327,13 @@ export default class PropertyImages extends Component{
     //             </div>
     //             <div className="utf-listing-carousel-item">
     //               <div>
-    //                 <Image width="800" height="100" src="/images/listing-01.jpg" alt="" />
+    //                 <Image alt="Property Image"width="800" height="100" src="/images/listing-01.jpg" alt="" />
     //               </div>
     //               <div>
-    //                 <Image width="800" height="100" src="/images/listing-01.jpg" alt="" />
+    //                 <Image alt="Property Image"width="800" height="100" src="/images/listing-01.jpg" alt="" />
     //               </div>
     //               <div>
-    //                 <Image width="800" height="100" src="/images/listing-01.jpg" alt="" />
+    //                 <Image alt="Property Image"width="800" height="100" src="/images/listing-01.jpg" alt="" />
     //               </div>
     //             </div>
     //           </Link>
@@ -384,22 +384,22 @@ export default class PropertyImages extends Component{
         <div className="slick-list draggable" style={{ height: 400 }}>
           <div className="slick-track">
             <Slider {...settings}>
-            <Image height="400" width="500" src="/images/single-property-01.jpg" 
+            <Image alt="Property Image"height="400" width="500" src="/images/single-property-01.jpg" 
                 style={{
                 width: '100%',
                 }}
             />
-            <Image height="400" width="500" src="/images/single-property-02.jpg" 
+            <Image alt="Property Image"height="400" width="500" src="/images/single-property-02.jpg" 
                 style={{
                 width: '100%',
                 }}
             />
-            <Image height="400" width="500" src="/images/single-property-03.jpg" 
+            <Image alt="Property Image"height="400" width="500" src="/images/single-property-03.jpg" 
                 style={{
                 width: '100%',
                 }}
             />
-            <Image height="400" width="500" src="/images/single-property-04.jpg" 
+            <Image alt="Property Image"height="400" width="500" src="/images/single-property-04.jpg" 
                 style={{
                 width: '100%',
                 }}

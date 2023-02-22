@@ -13,7 +13,7 @@ export default function Login(){
           <div className="utf-welcome-text-item">
             <h3>Welcome Back Sign in to Continue</h3>
             <span>
-              Don't Have an Account? <Link href="/register">Sign Up!</Link>
+              Do nott Have an Account? <Link href="/register">Sign Up!</Link>
             </span>
           </div>
           <form method="post" className="login">

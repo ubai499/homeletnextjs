@@ -15,7 +15,7 @@ export default function Register(){
           <div className="utf-welcome-text-item">
             <h3>Create Your New Account!</h3>
             <span>
-              Don't Have an Account? <Link href="/login">Log In!</Link>
+              Do not Have an Account? <Link href="/login">Log In!</Link>
             </span>
           </div>
           <form method="post" className="login">

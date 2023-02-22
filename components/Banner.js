@@ -16,7 +16,7 @@ const Banner = () => {
       <div className="utf-main-search-container-area">
         <div className="utf-banner-headline-text-part">
           <h2>
-            Let's Find Your Dream <span className="typed-words" />
+            Let us Find Your Dream <span className="typed-words" />
           </h2>
         </div>
         <div className="utf-search-type-block-area">

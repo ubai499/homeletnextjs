@@ -5,7 +5,7 @@ const Header = () =>{
   const [cliked, setClicked] = useState(true);
     return(
         <>
-        <nav className={cliked? "mmenu-init mm-menu mm-offcanvas" : "mmenu-init mm-menu mm-offcanvas mm-opened"} id="mm-0" aria-hidden="true"><div class="mm-panels"><div class="mm-panel mm-hasnavbar mm-opened" id="mm-1"><div class="mm-navbar"><a class="mm-title">Menu</a></div><ul class="mm-listview"><li><a href="/">Home</a></li><li><a href="/about">About Us</a></li><li><a href="/contact">Contact Us</a></li><li><a href="/agents">Agents</a></li><li><a href="/blog">Blog</a></li></ul></div></div></nav>
+        <nav className={cliked? "mmenu-init mm-menu mm-offcanvas" : "mmenu-init mm-menu mm-offcanvas mm-opened"} id="mm-0" aria-hidden="true"><div class="mm-panels"><div class="mm-panel mm-hasnavbar mm-opened" id="mm-1"><div class="mm-navbar"></div><ul class="mm-listview"><li><Link href="/">Home</Link></li><li><Link href="/about">About Us</Link></li><li><Link href="/contact">Contact Us</Link></li><li><Link href="/agents">Agents</Link></li><li><a href="/blog">Blog</a></li></ul></div></div></nav>
         <header id="header-container" className="fullwidth">
         {/* Header */}
 
