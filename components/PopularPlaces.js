@@ -50,7 +50,7 @@ export default function PopularPlaces(){
           </div>
           <h3>Flat</h3>
           <p>
-            Are You Looking For a Flat to rent or buy at an ideal location? Don't worry, Homelet Has got you covered.
+            Are You Looking For a Flat to rent or buy at an ideal location? Do not worry, Homelet Has got you covered.
           </p>
 
         </div>

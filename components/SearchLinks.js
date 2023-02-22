@@ -6,7 +6,7 @@ export default function SearchLinks(){
         <div className="row">
           <div className="col-md-12">
             <h4>Looking for popular cities to get properties in?</h4>
-            <p>Here's a list of houses flats plots and rooms in all bustling metropolitan cities.</p>
+            <p>Here is a list of houses flats plots and rooms in all bustling metropolitan cities.</p>
           </div>
         </div>
         <div className="row">
@@ -121,7 +121,7 @@ export default function SearchLinks(){
         <div className="row">
           <div className="col-md-12">
             <h4>Looking for Options of Your Next Home?</h4>
-            <p>Here's the list of popular locations in our top cities.</p>
+            <p>Her is the list of popular locations in our top cities.</p>
           </div>
         </div>
         <div className="row">
@@ -210,7 +210,7 @@ export default function SearchLinks(){
         <div className="row">
           <div className="col-md-12">
             <h4>Looking for flats on rent?</h4>
-            <p>Here's the list of available flats in your city.</p>
+            <p>Here is the list of available flats in your city.</p>
           </div>
         </div>
         <div className="row">

@@ -19,7 +19,7 @@ export default function LoginRegisterPopup(){
         <div className="utf-welcome-text-item">
           <h3>Welcome Back Sign in to Continue</h3>
           <span>
-            Don't Have an Account?{" "}
+            Do not Have an Account?
             <a href="#" className="register-tab">
               Sign Up!
             </a>
@@ -81,7 +81,7 @@ export default function LoginRegisterPopup(){
         <div className="utf-welcome-text-item">
           <h3>Create your Account!</h3>
           <span>
-            Don't Have an Account?{" "}
+            Do not Have an Account?
             <a href="#" className="register-tab">
               Sign Up!
             </a>
