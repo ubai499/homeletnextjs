@@ -115,14 +115,14 @@ export default class FeaturedProperties extends Component{
                     <i className="fa fa-bed" /> Beds<span>3</span>
                   </li>
                   <li>
-                    <i className="icon-feather-codepen" /> Baths
+                    <i className="fa fa-bath" /> Baths
                     <span>2</span>
                   </li>
                   <li>
                     <i className="fa fa-car" /> Garages<span>2</span>
                   </li>
                   <li>
-                    <i className="icon-line-awesome-arrows" /> Sq Ft
+                    <i className="fa fa-area-chart" /> Sq Ft
                     <span>1530</span>
                   </li>
                 </ul>
@@ -195,14 +195,14 @@ export default class FeaturedProperties extends Component{
                     <i className="fa fa-bed" /> Beds<span>3</span>
                   </li>
                   <li>
-                    <i className="icon-feather-codepen" /> Baths
+                    <i className="fa fa-bath" /> Baths
                     <span>2</span>
                   </li>
                   <li>
                     <i className="fa fa-car" /> Garages<span>2</span>
                   </li>
                   <li>
-                    <i className="icon-line-awesome-arrows" /> Sq Ft
+                    <i className="fa fa-area-chart" /> Sq Ft
                     <span>1530</span>
                   </li>
                 </ul>
@@ -275,14 +275,14 @@ export default class FeaturedProperties extends Component{
                     <i className="fa fa-bed" /> Beds<span>3</span>
                   </li>
                   <li>
-                    <i className="icon-feather-codepen" /> Baths
+                    <i className="fa fa-bath" /> Baths
                     <span>2</span>
                   </li>
                   <li>
                     <i className="fa fa-car" /> Garages<span>2</span>
                   </li>
                   <li>
-                    <i className="icon-line-awesome-arrows" /> Sq Ft
+                    <i className="fa fa-area-chart" /> Sq Ft
                     <span>1530</span>
                   </li>
                 </ul>
@@ -355,14 +355,14 @@ export default class FeaturedProperties extends Component{
                     <i className="fa fa-bed" /> Beds<span>3</span>
                   </li>
                   <li>
-                    <i className="icon-feather-codepen" /> Baths
+                    <i className="fa fa-bath" /> Baths
                     <span>2</span>
                   </li>
                   <li>
                     <i className="fa fa-car" /> Garages<span>2</span>
                   </li>
                   <li>
-                    <i className="icon-line-awesome-arrows" /> Sq Ft
+                    <i className="fa fa-area-chart" /> Sq Ft
                     <span>1530</span>
                   </li>
                 </ul>

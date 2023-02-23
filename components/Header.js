@@ -14,7 +14,7 @@ const Header = () =>{
           <div className="left-side">
             <div id="logo">
               <Link href="/">
-                <Image width="300" height="100" src="/images/logo.png" alt="" />
+                <Image width="300" height="200" src="/images/logo.png" alt="" />
               </Link>
             </div>
             <div className="mmenu-trigger" onClick={() => setClicked(current => !current)}>

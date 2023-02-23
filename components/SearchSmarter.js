@@ -28,12 +28,12 @@ export default function SearchSmarter(){
             Power your search with our Homelet real estate platform, for timely
             listings and a seamless experience.
           </p>
-          <a
+          {/* <a
             href="listings-list-with-sidebar.html"
             className="button margin-top-15"
           >
             Search Now
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

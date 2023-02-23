@@ -3,11 +3,8 @@ const Banner = () => {
   const [cliked, setClicked] = useState(true);
     return(
         <>
-        <div style={{background: 'linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/home-parallax-1.jpg)',backgroundAttachment:'fixed',backgroundSize:'cover',backgroundPosition:'50% -36.6837px',zIndex:'99',position:'relative',backgroundRepeat:'no-repeat'}}
+        <div style={{background: 'linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/background.webp)',backgroundAttachment:'fixed',backgroundSize:'cover',backgroundPosition:'50% 0px',zIndex:'99',position:'relative',backgroundRepeat:'no-repeat'}}
       className="parallax"
-      data-color-opacity="0.28"
-      data-img-width={2500}
-      data-img-height={1600}
     >
       <div className="utf-parallax-content-area">
 <div className="container">
