@@ -55,7 +55,7 @@ export default function Home() {
     <Script src="scripts/tooltips.min.js"></Script> */}
     <Script src="scripts/typed.js"></Script>
     {/* <Script src="scripts/custom_jquery.js"></Script>  */}
-     <Script src="scripts/custom.js"></Script>
+     {/* <Script src="scripts/custom.js"></Script> */}
   </div>
   {/* <Scripts/> */}
   </>
