@@ -18,29 +18,30 @@ export default function Contact(){
         backgroundPosition: "50% -134.25px"
         }}
         >
-  <div
-    className="parallax-overlay"
-    style={{ backgroundColor: "rgb(48, 48, 48)", opacity: "0.8" }}
-  />
-  <div id="titlebar">
-    <div className="container">
-      <div className="row">
-        <div className="col-md-12">
-          <h2>Contact Us</h2>
-          {/* Breadcrumbs */}
-          <nav id="breadcrumbs">
-            <ul>
-              <li>
-                <a href="index.html">Home</a>
-              </li>
-              <li>Contact Us</li>
-            </ul>
-          </nav>
+          
+        <div
+        className="parallax-overlay"
+        style={{ backgroundColor: "rgb(48, 48, 48)", opacity: "0.8" }}
+        />
+          <div id="titlebar">
+            <div className="container">
+              <div className="row">
+                <div className="col-md-12">
+                  <h2>Contact Us</h2>
+                    {/* Breadcrumbs */}
+                    <nav id="breadcrumbs">
+                      <ul>
+                        <li>
+                          <a href="index.html">Home</a>
+                        </li>
+                      <li>Contact Us</li>
+                      </ul>
+                    </nav>
+                </div>
+            </div>
+          </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
 
 
 {/* CONTENT */}

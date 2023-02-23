@@ -1,21 +1,16 @@
 import Script from "next/script"
-import Banner from "components/Banner"
-import BlogSection from "components/BlogSection"
+import Banner from "components/HomepageComponents/Banner"
+import BlogSection from "components/HomepageComponents/BlogSection"
 import Compare from "components/Compare"
-import FeaturedProperties from "components/FeaturedProperties"
+import FeaturedProperties from "components/HomepageComponents/FeaturedProperties"
 import Footer from "components/Footer"
-import ForRentProperties from "components/ForRentProperties"
-import ForSaleProperties from "components/ForSaleProperties"
 import Header from "components/Header"
 import LoginRegisterPopup from "components/LoginRegisterPopup"
 import PhotoSection from "components/PhotoSection"
 import PopularPlaces from "components/PopularPlaces"
-import PreLoader from "components/Preloader"
 import SearchLinks from "components/SearchLinks"
 import Topbar from "components/Topbar"
-import $ from "jquery"
 import Head from "next/head"
-import Scripts from "components/Scripts"
 import SearchSmarter from "components/SearchSmarter"
 import NeedHelp from "components/NeedHelp"
 
@@ -27,11 +22,8 @@ export default function Home() {
     <Head/>
     <Header/>
     <Compare/>
-    <div className="clearfix" />
     <Banner/>
     <FeaturedProperties/>
-    {/* <ForSaleProperties/>
-    <ForRentProperties/> */}
     <PopularPlaces/>
     <SearchSmarter/>
     <BlogSection/>
@@ -39,25 +31,9 @@ export default function Home() {
     <NeedHelp/>
     <SearchLinks/>
     <LoginRegisterPopup/>
-    {/* <PreLoader/> */}
     <Footer/>
-
-    {/* <Script src="scripts/jquery.min.js"></Script>
-    <Script src="scripts/bootstrap.min.js"></Script>
-    <Script src="scripts/chosen.min.js"></Script>
-    <Script src="scripts/magnific-popup.min.js"></Script>
-    <Script src="scripts/owl.carousel.min.js"></Script>
-    <Script src="scripts/rangeSlider.js"></Script>
-    <Script src="scripts/sticky-kit.min.js"></Script>
-    <Script src="scripts/slick.min.js"></Script>
-    <Script src="scripts/masonry.min.js"></Script>
-    <Script src="scripts/mmenu.min.js"></Script>
-    <Script src="scripts/tooltips.min.js"></Script> */}
     <Script src="scripts/typed.js"></Script>
-    {/* <Script src="scripts/custom_jquery.js"></Script>  */}
-     {/* <Script src="scripts/custom.js"></Script> */}
   </div>
-  {/* <Scripts/> */}
   </>
   )
 }

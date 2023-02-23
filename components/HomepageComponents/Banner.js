@@ -25,31 +25,33 @@ const Banner = () => {
   const [chkValue19, setChkValue19] = useState(false);
   const [chkValue20, setChkValue20] = useState(false);
   const [chkValue21, setChkValue21] = useState(false);
+
     return(
         <>
         <div style={{background: 'linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/background.webp)',backgroundAttachment:'fixed',backgroundSize:'cover',backgroundPosition:'50% 0px',zIndex:'99',position:'relative',backgroundRepeat:'no-repeat'}}
-      className="parallax"
-    >
+        className="parallax"
+        >
+
       <div className="utf-parallax-content-area">
-<div className="container">
-  <div className="row">
-    <div className="col-md-12">
-      <div className="utf-main-search-container-area">
-        <div className="utf-banner-headline-text-part">
-          <h2>
-            Let us Find Your Dream <span className="typed-words" />
-          </h2>
-        </div>
-        <div className="utf-search-type-block-area">
-            
-            <div class="search-type">
-					  <label className={clicks ? "active" : ""}>
-						<input class="first-tab" name="tab" checked="checked" type="radio" value="search" onClick={() => setClicks(current => !current)}/>Search Property</label>
-					  <label className={clicks ? "" : "active"}>
-						<input name="tab" type="radio" value="invest" onClick={() => setClicks(current => !current)}/>True Value</label>
-						<div class="utf-search-type-arrow" style={{left:'35px'}}></div>
-					</div>
-          </div>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="utf-main-search-container-area">
+                <div className="utf-banner-headline-text-part">
+                  <h2>
+                    Let us Find Your Dream <span className="typed-words" />
+                  </h2>
+                </div>
+
+                <div className="utf-search-type-block-area">
+                  <div class="search-type">
+					          <label className={clicks ? "active" : ""}>
+						        <input class="first-tab" name="tab" checked="checked" type="radio" value="search" onClick={() => setClicks(current => !current)}/>Search Property</label>
+					          <label className={clicks ? "" : "active"}>
+						        <input name="tab" type="radio" value="invest" onClick={() => setClicks(current => !current)}/>True Value</label>
+						        <div class="utf-search-type-arrow" style={{left:'35px'}}></div>
+					        </div>
+                </div>
 
         {/* PROPERTY SEARCH FORM */}
         <form id="propertyform" className={clicks ? "utf-main-search-form-item" : "utf-main-search-form-item showform"} action="">
@@ -92,7 +94,7 @@ const Banner = () => {
                   </button>
                 </div>
   
-              </div>
+            </div>
               <div className={cliked ? "utf-more-search-options-area" : "utf-more-search-options-area active"}>
                 <div className="utf-more-search-options-area-container">
                   <div className="row">
@@ -773,13 +775,14 @@ const Banner = () => {
         </form>
 
 
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</div>
-</div>
-    </div>
-    <Script src="scripts/custom.js"></Script>
+      </div>
+      <Script src="scripts/typed.js"></Script>
+      <Script src="scripts/custom.js"></Script>
         </>
     )
 }
