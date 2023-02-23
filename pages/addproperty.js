@@ -14,7 +14,7 @@ export default function AddProperty(){
       <div className="margin-bottom-20">
         <div className="utf-edit-profile-photo-area">
           {" "}
-          <Image width="100" height="100" src="images/agent-02.jpg" alt="" />
+          <Image width="600" height="300" src="/images/agent-02.jpg" alt="" />
           <div className="utf-change-photo-btn-item">
             <div className="utf-user-photo-upload">
               {" "}

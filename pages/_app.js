@@ -11,8 +11,8 @@ function Loading() {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-      const handleStart = (url) => (url !== router.asPath) && setLoading(true);
-      const handleComplete = (url) => (url !== router.asPath) && setTimeout(() =>{setLoading(false)},1000);
+      const handleStart = (url) => (url !== router.asPath) && setLoading(false);
+      const handleComplete = (url) => (url !== router.asPath) && setTimeout(() =>{setLoading(true)},1000);
 
       router.events.on('routeChangeStart', handleStart)
       router.events.on('routeChangeComplete', handleComplete)
@@ -33,7 +33,7 @@ export default function App({ Component, pageProps }) {
     <>
     {/* <Head/> */}
     <Heads/>
-    <Loading/>
+    {/* <Loading/> */}
     <Component {...pageProps} />
     {/* <Scripts/> */}
     </>

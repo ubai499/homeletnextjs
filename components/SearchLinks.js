@@ -118,7 +118,6 @@ export default function SearchLinks(){
         </div>
 
         <hr/>
-        <br/><br/><br/>
         <div className="row">
           <div className="col-md-12">
             <h4>Looking for Options of Your Next Home?</h4>
@@ -207,7 +206,7 @@ export default function SearchLinks(){
         </div>
 
         <hr/>
-        <br/><br/><br/>
+       
         <div className="row">
           <div className="col-md-12">
             <h4>Looking for flats on rent?</h4>
@@ -296,7 +295,6 @@ export default function SearchLinks(){
         </div>
 
         <hr/>
-        <br/><br/><br/>
         <div className="row">
           <div className="col-md-12">
             <h4>Confused about where to buy a plot?</h4>

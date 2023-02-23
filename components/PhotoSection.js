@@ -34,11 +34,11 @@ export default function PhotoSection(){
                 </li>
               </ul>
             </div>
-            {/* <div className="col-lg-4 col-md-6 col-sm-12">
+            <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="download-img">
                 <img src="images/mockup3.png" alt="" />
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>

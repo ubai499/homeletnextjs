@@ -104,7 +104,7 @@ const Banner = () => {
                       margin: '-20px 5px'
                     }}    
                     >
-                        <input id="house" class="radio-button" type="radio" name="house" value="residential" />
+                        <input id="house" class="radio-button" type="checkbox" name="house" value="residential" />
                         <div class="radio-tile">
                           <div class="icon house-icon">
                             <svg fill="#ECECEC" height="64" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg">
@@ -122,7 +122,7 @@ const Banner = () => {
                       margin: '-20px 5px'
                     }}
                     >
-                      <input id="guesthouse" class="radio-button" type="radio" name="guesthouse" value="guesthouse" />
+                      <input id="guesthouse" class="radio-button" type="checkbox" name="guesthouse" value="guesthouse" />
                         <div class="radio-tile">
                           <div class="icon house-icon">
                             <svg fill="#ECECEC" height="64" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg">
@@ -140,7 +140,7 @@ const Banner = () => {
                       margin: '-20px 5px'
                     }}
                     >
-                      <input id="flat" class="radio-button" type="radio" name="flat" value="flat"/>
+                      <input id="flat" class="radio-button" type="checkbox" name="flat" value="flat"/>
                         <div class="radio-tile">
                           <div class="icon flat-icon">
                             <svg fill="#ECECEC" height="64" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg">
@@ -159,7 +159,7 @@ const Banner = () => {
                       margin: '-20px 5px'
                     }}
                     >
-                      <input id="hostel" class="radio-button" type="radio" name="hostel" value="hostel" />
+                      <input id="hostel" class="radio-button" type="checkbox" name="hostel" value="hostel" />
                         <div class="radio-tile">
                           <div class="icon hostel-icon">
                             <svg fill="#ECECEC" height="64" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg">
@@ -177,7 +177,7 @@ const Banner = () => {
                       margin: '-20px 5px'
                     }}
                     >
-                      <input id="lowerportion" class="radio-button" type="radio" name="lowerportion" value="lowerportion" />
+                      <input id="lowerportion" class="radio-button" type="checkbox" name="lowerportion" value="lowerportion" />
                         <div class="radio-tile">
                           <div class="icon lowerportion-icon">
                             <svg fill="#ECECEC" height="64" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg">
@@ -195,7 +195,7 @@ const Banner = () => {
                       margin: '-20px 5px'
                     }}
                     >
-                      <input id="room" class="radio-button" type="radio" name="room" value="room" />
+                      <input id="room" class="radio-button" type="checkbox" name="room" value="room" />
                         <div class="radio-tile">
                           <div class="icon room-icon">
                             <svg fill="#ECECEC" height="64" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg">
@@ -213,7 +213,7 @@ const Banner = () => {
                       margin: '-20px 5px'
                     }}
                     >
-                      <input id="farmhouse" class="radio-button" type="radio" name="farmhouse" value="farmhouse" />
+                      <input id="farmhouse" class="radio-button" type="checkbox" name="farmhouse" value="farmhouse" />
                         <div class="radio-tile">
                           <div class="icon farmhouse-icon">
                             <svg fill="#ECECEC" height="64" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg">
@@ -231,7 +231,7 @@ const Banner = () => {
                       margin: '-20px 5px'
                     }}
                     >
-                      <input id="penthouse" class="radio-button" type="radio" name="penthouse" value="penthouse" />
+                      <input id="penthouse" class="radio-button" type="checkbox" name="penthouse" value="penthouse" />
                         <div class="radio-tile">
                           <div class="icon penthouse-icon">
                             <svg fill="#ECECEC" height="64" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg">
@@ -256,7 +256,7 @@ const Banner = () => {
                       margin: '-20px 5px'
                     }}    
                     >
-                        <input id="house" class="radio-button" type="radio" name="office" />
+                        <input id="house" class="radio-button" type="checkbox" name="office" />
                         <div class="radio-tile">
                           <div class="icon house-icon">
                             <svg fill="#ECECEC" height="64" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg">
@@ -279,7 +279,7 @@ const Banner = () => {
                       margin: '-20px 5px'
                     }}
                     >
-                      <input id="guesthouse" class="radio-button" type="radio" name="shop" />
+                      <input id="guesthouse" class="radio-button" type="checkbox" name="shop" />
                         <div class="radio-tile">
                           <div class="icon house-icon">
                             <svg fill="#ECECEC" height="64" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg">
@@ -297,7 +297,7 @@ const Banner = () => {
                       margin: '-20px 5px'
                     }}
                     >
-                      <input id="flat" class="radio-button" type="radio" name="warehouse" />
+                      <input id="flat" class="radio-button" type="checkbox" name="warehouse" />
                         <div class="radio-tile">
                           <div class="icon flat-icon">
                             <svg fill="#ECECEC" height="64" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg">
@@ -314,7 +314,7 @@ const Banner = () => {
                       margin: '-20px 5px'
                     }}
                     >
-                      <input id="hostel" class="radio-button" type="radio" name="factory" />
+                      <input id="hostel" class="radio-button" type="checkbox" name="factory" />
                         <div class="radio-tile">
                           <div class="icon hostel-icon">
                             <svg fill="#ECECEC" height="64" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg">
@@ -332,7 +332,7 @@ const Banner = () => {
                       margin: '-20px 5px'
                     }}
                     >
-                      <input id="lowerportion" class="radio-button" type="radio" name="building" />
+                      <input id="lowerportion" class="radio-button" type="checkbox" name="building" />
                         <div class="radio-tile">
                           <div class="icon lowerportion-icon">
                             <svg fill="#ECECEC" height="64" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg">
@@ -355,7 +355,7 @@ const Banner = () => {
                       margin: '-20px 5px'
                     }}
                     >
-                      <input id="room" class="radio-button" type="radio" name="gym" />
+                      <input id="room" class="radio-button" type="checkbox" name="gym" />
                         <div class="radio-tile">
                           <div class="icon room-icon">
                             <svg fill="#ECECEC" height="64" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg">
@@ -372,7 +372,7 @@ const Banner = () => {
                       margin: '-20px 5px'
                     }}
                     >
-                      <input id="farmhouse" class="radio-button" type="radio" name="theatre" />
+                      <input id="farmhouse" class="radio-button" type="checkbox" name="theatre" />
                         <div class="radio-tile">
                           <div class="icon farmhouse-icon">
                             <svg fill="#ECECEC" height="64" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg">
@@ -389,7 +389,7 @@ const Banner = () => {
                       margin: '-20px 5px'
                     }}
                     >
-                      <input id="penthouse" class="radio-button" type="radio" name="foodcourt" />
+                      <input id="penthouse" class="radio-button" type="checkbox" name="foodcourt" />
                         <div class="radio-tile">
                           <div class="icon penthouse-icon">
                             <svg fill="#ECECEC" height="64" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg">
@@ -413,7 +413,7 @@ const Banner = () => {
                       margin: '-20px 5px'
                     }}    
                     >
-                        <input id="house" class="radio-button" type="radio" name="residential" />
+                        <input id="house" class="radio-button" type="checkbox" name="residential" />
                         <div class="radio-tile">
                           <div class="icon house-icon">
                             <svg fill="#ECECEC" height="64" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg">
@@ -430,7 +430,7 @@ const Banner = () => {
                       margin: '-20px 5px'
                     }}
                     >
-                      <input id="guesthouse" class="radio-button" type="radio" name="commercial" />
+                      <input id="guesthouse" class="radio-button" type="checkbox" name="commercial" />
                         <div class="radio-tile">
                           <div class="icon house-icon">
                             <svg fill="#ECECEC" height="64" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg">
@@ -447,7 +447,7 @@ const Banner = () => {
                       margin: '-20px 5px'
                     }}
                     >
-                      <input id="flat" class="radio-button" type="radio" name="agricultural" />
+                      <input id="flat" class="radio-button" type="checkbox" name="agricultural" />
                         <div class="radio-tile">
                           <div class="icon flat-icon">
                             <svg fill="#ECECEC" height="64" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg">
@@ -464,7 +464,7 @@ const Banner = () => {
                       margin: '-20px 5px'
                     }}
                     >
-                      <input id="hostel" class="radio-button" type="radio" name="industrial" />
+                      <input id="hostel" class="radio-button" type="checkbox" name="industrial" />
                         <div class="radio-tile">
                           <div class="icon hostel-icon">
                             <svg fill="#ECECEC" height="64" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg">
@@ -481,7 +481,7 @@ const Banner = () => {
                       margin: '-20px 5px'
                     }}
                     >
-                      <input id="lowerportion" class="radio-button" type="radio" name="plotfile" />
+                      <input id="lowerportion" class="radio-button" type="checkbox" name="plotfile" />
                         <div class="radio-tile">
                           <div class="icon lowerportion-icon">
                             <svg fill="#ECECEC" height="64" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg">
@@ -498,7 +498,7 @@ const Banner = () => {
                       margin: '-20px 5px'
                     }}
                     >
-                      <input id="room" class="radio-button" type="radio" name="farmhouseplot" />
+                      <input id="room" class="radio-button" type="checkbox" name="farmhouseplot" />
                         <div class="radio-tile">
                           <div class="icon room-icon">
                             <svg fill="#ECECEC" height="64" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg">
@@ -576,7 +576,7 @@ const Banner = () => {
                     margin: '-20px 5px'
                   }}    
                   >
-                      <input id="house" class="radio-button" type="radio" name="house" />
+                      <input id="house" class="radio-button" type="checkbox" name="house" />
                       <div class="radio-tile">
                         <div class="icon house-icon">
                           <svg fill="#ECECEC" height="64" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg">
@@ -594,7 +594,7 @@ const Banner = () => {
                     margin: '-20px 5px'
                   }}
                   >
-                    <input id="guesthouse" class="radio-button" type="radio" name="guesthouse" />
+                    <input id="guesthouse" class="radio-button" type="checkbox" name="guesthouse" />
                       <div class="radio-tile">
                         <div class="icon house-icon">
                           <svg fill="#ECECEC" height="64" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg">
@@ -612,7 +612,7 @@ const Banner = () => {
                     margin: '-20px 5px'
                   }}
                   >
-                    <input id="flat" class="radio-button" type="radio" name="flat" />
+                    <input id="flat" class="radio-button" type="checkbox" name="flat" />
                       <div class="radio-tile">
                         <div class="icon flat-icon">
                           <svg fill="#ECECEC" height="64" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg">
@@ -631,7 +631,7 @@ const Banner = () => {
                     margin: '-20px 5px'
                   }}
                   >
-                    <input id="hostel" class="radio-button" type="radio" name="radio" />
+                    <input id="hostel" class="radio-button" type="checkbox" name="radio" />
                       <div class="radio-tile">
                         <div class="icon hostel-icon">
                           <svg fill="#ECECEC" height="64" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg">
@@ -649,7 +649,7 @@ const Banner = () => {
                     margin: '-20px 5px'
                   }}
                   >
-                    <input id="lowerportion" class="radio-button" type="radio" name="radio" />
+                    <input id="lowerportion" class="radio-button" type="checkbox" name="radio" />
                       <div class="radio-tile">
                         <div class="icon lowerportion-icon">
                           <svg fill="#ECECEC" height="64" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg">
@@ -667,7 +667,7 @@ const Banner = () => {
                     margin: '-20px 5px'
                   }}
                   >
-                    <input id="room" class="radio-button" type="radio" name="radio" />
+                    <input id="room" class="radio-button" type="checkbox" name="radio" />
                       <div class="radio-tile">
                         <div class="icon room-icon">
                           <svg fill="#ECECEC" height="64" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg">
@@ -685,7 +685,7 @@ const Banner = () => {
                     margin: '-20px 5px'
                   }}
                   >
-                    <input id="farmhouse" class="radio-button" type="radio" name="radio" />
+                    <input id="farmhouse" class="radio-button" type="checkbox" name="radio" />
                       <div class="radio-tile">
                         <div class="icon farmhouse-icon">
                           <svg fill="#ECECEC" height="64" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg">
@@ -703,7 +703,7 @@ const Banner = () => {
                     margin: '-20px 5px'
                   }}
                   >
-                    <input id="penthouse" class="radio-button" type="radio" name="radio" />
+                    <input id="penthouse" class="radio-button" type="checkbox" name="radio" />
                       <div class="radio-tile">
                         <div class="icon penthouse-icon">
                           <svg fill="#ECECEC" height="64" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg">

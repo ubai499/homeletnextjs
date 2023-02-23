@@ -16,6 +16,8 @@ import Topbar from "components/Topbar"
 import $ from "jquery"
 import Head from "next/head"
 import Scripts from "components/Scripts"
+import SearchSmarter from "components/SearchSmarter"
+import NeedHelp from "components/NeedHelp"
 
 export default function Home() {
   return (
@@ -31,8 +33,10 @@ export default function Home() {
     {/* <ForSaleProperties/>
     <ForRentProperties/> */}
     <PopularPlaces/>
+    <SearchSmarter/>
     <BlogSection/>
     <PhotoSection/>
+    <NeedHelp/>
     <SearchLinks/>
     <LoginRegisterPopup/>
     {/* <PreLoader/> */}

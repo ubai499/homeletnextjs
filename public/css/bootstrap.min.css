@@ -2377,7 +2377,7 @@ textarea {
 }
 
 input[type=checkbox] {
-    display: inline
+    /* display: inline; */
 }
 
 label span,

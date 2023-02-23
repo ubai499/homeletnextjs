@@ -1,5 +1,6 @@
 import Image from "next/image"
 import { useState } from "react";
+import Link from "next/link";
 const Compare = () =>{
   const [cliked, setClicked] = useState(true);
     return(
@@ -56,9 +57,9 @@ const Compare = () =>{
           </div>
         </div>
         <div className="utf-smt-buttons">
-          <a href="compare-properties.html" className="button">
+          <Link href="/compareproperties" className="button">
             Compare Property
-          </a>
+          </Link>
         </div>
       </div>
     </div>
