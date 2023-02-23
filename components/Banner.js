@@ -296,7 +296,7 @@ const Banner = () => {
                             </svg>
                           </div>
                         </div>
-                        <label for="house" class="radio-tile-label">Office</label>
+                        <label for="house" className={chkValue1 ? "radio-tile-label-checked" : "radio-tile-label"}>Office</label>
                     </li>
                     
                     <li
@@ -315,7 +315,7 @@ const Banner = () => {
                             </svg>
                           </div>
                         </div>
-                        <label for="guesthouse" class="radio-tile-label">Shop</label>
+                        <label for="guesthouse" className={chkValue9 ? "radio-tile-label-checked" : "radio-tile-label"}>Shop</label>
                     </li>
                                       
                     <li
@@ -333,7 +333,7 @@ const Banner = () => {
                             </svg>
                           </div>
                         </div>
-                        <label for="flat" class="radio-tile-label">Warehouse</label>
+                        <label for="flat" className={chkValue10 ? "radio-tile-label-checked" : "radio-tile-label"}>Warehouse</label>
                     </li>
                                       
                     <li
@@ -352,7 +352,7 @@ const Banner = () => {
                             </svg>
                           </div>
                         </div>
-                        <label for="hostel" class="radio-tile-label">Factory</label>
+                        <label for="hostel" className={chkValue11 ? "radio-tile-label-checked" : "radio-tile-label"}>Factory</label>
                     </li>
                     
                     <li
@@ -376,7 +376,7 @@ const Banner = () => {
                             </svg>
                           </div>
                         </div>
-                        <label for="lowerportion" class="radio-tile-label">Building</label>
+                        <label for="lowerportion" className={chkValue12 ? "radio-tile-label-checked" : "radio-tile-label"}>Building</label>
                     </li>
                                       
                     <li
@@ -394,7 +394,7 @@ const Banner = () => {
                             </svg>
                           </div>
                         </div>
-                        <label for="room" class="radio-tile-label">Gym</label>
+                        <label for="room" className={chkValue13 ? "radio-tile-label-checked" : "radio-tile-label"}>Gym</label>
                     </li>
                                       
                     <li
@@ -412,7 +412,7 @@ const Banner = () => {
                             </svg>
                           </div>
                         </div>
-                        <label for="farmhouse" class="radio-tile-label">Theatre</label>
+                        <label for="farmhouse" className={chkValue14 ? "radio-tile-label-checked" : "radio-tile-label"}>Theatre</label>
                     </li>
                                       
                     <li
@@ -430,7 +430,7 @@ const Banner = () => {
                             </svg>
                           </div>
                         </div>
-                        <label for="penthouse" class="radio-tile-label">Food Court</label>
+                        <label for="penthouse" className={chkValue15 ? "radio-tile-label-checked" : "radio-tile-label"}>Food Court</label>
                     </li>
                   </ul>
                   </div>
@@ -455,7 +455,7 @@ const Banner = () => {
                             </svg>
                           </div>
                         </div>
-                        <label for="house" class="radio-tile-label">Residential Plot</label>
+                        <label for="house" className={chkValue16 ? "radio-tile-label-checked" : "radio-tile-label"}>Residential Plot</label>
                     </li>
                     
                     <li
@@ -473,7 +473,7 @@ const Banner = () => {
                             </svg>
                           </div>
                         </div>
-                        <label for="guesthouse" class="radio-tile-label">Commercial Plot</label>
+                        <label for="guesthouse" className={chkValue17 ? "radio-tile-label-checked" : "radio-tile-label"}>Commercial Plot</label>
                     </li>
                                       
                     <li
@@ -491,7 +491,7 @@ const Banner = () => {
                             </svg>
                           </div>
                         </div>
-                        <label for="flat" class="radio-tile-label">Agricultural Plot</label>
+                        <label for="flat" className={chkValue18 ? "radio-tile-label-checked" : "radio-tile-label"}>Agricultural Plot</label>
                     </li>
                                       
                     <li
@@ -509,7 +509,7 @@ const Banner = () => {
                             </svg>
                           </div>
                         </div>
-                        <label for="hostel" class="radio-tile-label">Industrial Land</label>
+                        <label for="hostel" className={chkValue19 ? "radio-tile-label-checked" : "radio-tile-label"}>Industrial Land</label>
                     </li>
                     
                     <li
@@ -527,7 +527,7 @@ const Banner = () => {
                             </svg>
                           </div>
                         </div>
-                        <label for="lowerportion" class="radio-tile-label">Plot Files</label>
+                        <label for="lowerportion" className={chkValue20 ? "radio-tile-label-checked" : "radio-tile-label"}>Plot Files</label>
                     </li>
                                       
                     <li
@@ -545,7 +545,7 @@ const Banner = () => {
                             </svg>
                           </div>
                         </div>
-                        <label for="room" class="radio-tile-label">Farm House</label>
+                        <label for="room" className={chkValue21 ? "radio-tile-label-checked" : "radio-tile-label"}>Farm House</label>
                     </li>
                                   
                   </ul>
