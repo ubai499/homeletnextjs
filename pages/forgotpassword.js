@@ -18,7 +18,7 @@ const handleSubmit = (event) => {
                         <div className="utf-welcome-text-item">
                         <h3>Forgot Your Password?</h3>
                         <span>
-                        Enter your Contact Number below and we'll send you Verification Link
+                        Enter your Contact Number below and we will send you Verification Link
                         </span>
                     </div>
                     <form method="post" className="login" onSubmit={handleSubmit}>
