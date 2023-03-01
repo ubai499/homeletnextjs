@@ -1,4 +1,5 @@
 import { Component } from "react";
+import Image from "next/image";
 export default class Step1 extends Component{
 continue = e =>{
     e.preventDefault();

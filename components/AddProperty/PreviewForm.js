@@ -64,7 +64,6 @@ back = e =>{
                             alt="0 Beds"
                             src="../../images/beadroom.svg"
                             decoding="async"
-                            data-nImage width="100" height="100"="fill"
                             style={{
                               position: "absolute",
                               top: 0,
@@ -114,7 +113,6 @@ back = e =>{
                             alt="0 Beds"
                             src="../../images/bathroom.svg"
                             decoding="async"
-                            data-nImage width="100" height="100"="fill"
                             style={{
                               position: "absolute",
                               top: 0,
@@ -165,7 +163,6 @@ back = e =>{
                             alt="0 Garage"
                             src="../../images/parking.svg"
                             decoding="async"
-                            data-nImage width="100" height="100"="fill"
                             style={{
                               position: "absolute",
                               top: 0,
