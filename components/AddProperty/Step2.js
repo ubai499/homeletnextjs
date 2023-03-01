@@ -1,5 +1,5 @@
 import { Component } from "react";
-
+import Image from "next/image";
 export default class Step2 extends Component{
   continue = e =>{
     e.preventDefault();
@@ -156,9 +156,9 @@ back = e =>{
                 inset: 0
               }}
             >
-              <img
+              <Image width="100" height="100"
                 alt="icon"
-                src="../../images/residential.svg"
+                src="/images/residential.svg"
                 decoding="async"
                 data-nimg="fill"
                 style={{
@@ -205,9 +205,9 @@ back = e =>{
                 inset: 0
               }}
             >
-              <img
+              <Image width="100" height="100"
                 alt="icon"
-                src="../../images/plot.svg"
+                src="/images/plot.svg"
                 decoding="async"
                 data-nimg="fill"
                 style={{
@@ -259,9 +259,9 @@ back = e =>{
                 inset: 0
               }}
             >
-              <img
+              <Image width="100" height="100"
                 alt="icon"
-                src="../../images/building.svg"
+                src="/images/building.svg"
                 decoding="async"
                 data-nimg="fill"
                 style={{

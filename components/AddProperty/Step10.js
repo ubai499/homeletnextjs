@@ -1,5 +1,5 @@
 import { Component } from "react";
-
+import Image from "next/image";
 export default class Step10 extends Component{
   continue = e =>{
     e.preventDefault();
@@ -330,9 +330,9 @@ validateValue(value) {
               inset: 0
             }}
           >
-            <img
+            <Image width="100" height="100"
               alt="icon"
-              src="../../images/features_tv_lounge.svg"
+              src="/images/features_tv_lounge.svg"
               decoding="async"
               data-nimg="fill"
               style={{
@@ -386,9 +386,9 @@ validateValue(value) {
               inset: 0
             }}
           >
-            <img
+            <Image width="100" height="100"
               alt="icon"
-              src="../../images/features_store_room.svg"
+              src="/images/features_store_room.svg"
               decoding="async"
               data-nimg="fill"
               style={{
@@ -440,9 +440,9 @@ validateValue(value) {
               inset: 0
             }}
           >
-            <img
+            <Image width="100" height="100"
               alt="icon"
-              src="../../images/features_laundry_room.svg"
+              src="/images/features_laundry_room.svg"
               decoding="async"
               data-nimg="fill"
               style={{
@@ -494,9 +494,9 @@ validateValue(value) {
               inset: 0
             }}
           >
-            <img
+            <Image width="100" height="100"
               alt="icon"
-              src="../../images/features_study_room.svg"
+              src="/images/features_study_room.svg"
               decoding="async"
               data-nimg="fill"
               style={{
@@ -548,9 +548,9 @@ validateValue(value) {
               inset: 0
             }}
           >
-            <img
+            <Image width="100" height="100"
               alt="icon"
-              src="../../images/features_dining_room.svg"
+              src="/images/features_dining_room.svg"
               decoding="async"
               data-nimg="fill"
               style={{
@@ -602,9 +602,9 @@ validateValue(value) {
               inset: 0
             }}
           >
-            <img
+            <Image width="100" height="100"
               alt="icon"
-              src="../../images/features_drawing_room.svg"
+              src="/images/features_drawing_room.svg"
               decoding="async"
               data-nimg="fill"
               style={{
@@ -656,9 +656,9 @@ validateValue(value) {
               inset: 0
             }}
           >
-            <img
+            <Image width="100" height="100"
               alt="icon"
-              src="../../images/features_powder_room.svg"
+              src="/images/features_powder_room.svg"
               decoding="async"
               data-nimg="fill"
               style={{
@@ -710,9 +710,9 @@ validateValue(value) {
               inset: 0
             }}
           >
-            <img
+            <Image width="100" height="100"
               alt="icon"
-              src="../../images/features_balcony.svg"
+              src="/images/features_balcony.svg"
               decoding="async"
               data-nimg="fill"
               style={{
@@ -764,9 +764,9 @@ validateValue(value) {
               inset: 0
             }}
           >
-            <img
+            <Image width="100" height="100"
               alt="icon"
-              src="../../images/features_dirty_kitchen.svg"
+              src="/images/features_dirty_kitchen.svg"
               decoding="async"
               data-nimg="fill"
               style={{
@@ -818,9 +818,9 @@ validateValue(value) {
               inset: 0
             }}
           >
-            <img
+            <Image width="100" height="100"
               alt="icon"
-              src="../../images/features_kitchen.svg"
+              src="/images/features_kitchen.svg"
               decoding="async"
               data-nimg="fill"
               style={{
@@ -872,9 +872,9 @@ validateValue(value) {
               inset: 0
             }}
           >
-            <img
+            <Image width="100" height="100"
               alt="icon"
-              src="../../images/features_swimming_pool.svg"
+              src="/images/features_swimming_pool.svg"
               decoding="async"
               data-nimg="fill"
               style={{
@@ -926,9 +926,9 @@ validateValue(value) {
               inset: 0
             }}
           >
-            <img
+            <Image width="100" height="100"
               alt="icon"
-              src="../../images/features_home_theatre.svg"
+              src="/images/features_home_theatre.svg"
               decoding="async"
               data-nimg="fill"
               style={{
@@ -980,9 +980,9 @@ validateValue(value) {
               inset: 0
             }}
           >
-            <img
+            <Image width="100" height="100"
               alt="icon"
-              src="../../images/features_garden-lawn.svg"
+              src="/images/features_garden-lawn.svg"
               decoding="async"
               data-nimg="fill"
               style={{
@@ -1034,9 +1034,9 @@ validateValue(value) {
               inset: 0
             }}
           >
-            <img
+            <Image width="100" height="100"
               alt="icon"
-              src="../../images/features_elevator-lift.svg"
+              src="/images/features_elevator-lift.svg"
               decoding="async"
               data-nimg="fill"
               style={{
@@ -1092,9 +1092,9 @@ validateValue(value) {
               inset: 0
             }}
           >
-            <img
+            <Image width="100" height="100"
               alt="icon"
-              src="../../images/features_servant_quarter.svg"
+              src="/images/features_servant_quarter.svg"
               decoding="async"
               data-nimg="fill"
               style={{
@@ -1146,9 +1146,9 @@ validateValue(value) {
               inset: 0
             }}
           >
-            <img
+            <Image width="100" height="100"
               alt="icon"
-              src="../../images/features_security_staff.svg"
+              src="/images/features_security_staff.svg"
               decoding="async"
               data-nimg="fill"
               style={{
@@ -1211,9 +1211,9 @@ validateValue(value) {
               inset: 0
             }}
           >
-            <img
+            <Image width="100" height="100"
               alt="icon"
-              src="../../images/features_corner_plot.svg"
+              src="/images/features_corner_plot.svg"
               decoding="async"
               data-nimg="fill"
               style={{
@@ -1258,9 +1258,9 @@ validateValue(value) {
               inset: 0
             }}
           >
-            <img
+            <Image width="100" height="100"
               alt="icon"
-              src="../../images/features_rooftop_usable.svg"
+              src="/images/features_rooftop_usable.svg"
               decoding="async"
               data-nimg="fill"
               style={{
@@ -1305,9 +1305,9 @@ validateValue(value) {
               inset: 0
             }}
           >
-            <img
+            <Image width="100" height="100"
               alt="icon"
-              src="../../images/features_seperate_entry.svg"
+              src="/images/features_seperate_entry.svg"
               decoding="async"
               data-nimg="fill"
               style={{
@@ -1356,9 +1356,9 @@ validateValue(value) {
               inset: 0
             }}
           >
-            <img
+            <Image width="100" height="100"
               alt="icon"
-              src="../../images/features_central_cooling.svg"
+              src="/images/features_central_cooling.svg"
               decoding="async"
               data-nimg="fill"
               style={{
@@ -1407,9 +1407,9 @@ validateValue(value) {
               inset: 0
             }}
           >
-            <img
+            <Image width="100" height="100"
               alt="icon"
-              src="../../images/features_central_heating.svg"
+              src="/images/features_central_heating.svg"
               decoding="async"
               data-nimg="fill"
               style={{
@@ -1454,9 +1454,9 @@ validateValue(value) {
               inset: 0
             }}
           >
-            <img
+            <Image width="100" height="100"
               alt="icon"
-              src="../../images/features_accessibility.svg"
+              src="/images/features_accessibility.svg"
               decoding="async"
               data-nimg="fill"
               style={{
@@ -1501,9 +1501,9 @@ validateValue(value) {
               inset: 0
             }}
           >
-            <img
+            <Image width="100" height="100"
               alt="icon"
-              src="../../images/features_semi_furnished.svg"
+              src="/images/features_semi_furnished.svg"
               decoding="async"
               data-nimg="fill"
               style={{
@@ -1548,9 +1548,9 @@ validateValue(value) {
               inset: 0
             }}
           >
-            <img
+            <Image width="100" height="100"
               alt="icon"
-              src="../../images/features_furnished.svg"
+              src="/images/features_furnished.svg"
               decoding="async"
               data-nimg="fill"
               style={{

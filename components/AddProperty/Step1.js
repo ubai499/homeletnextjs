@@ -160,9 +160,9 @@ back = e =>{
                         right: 0
                       }}
                     >
-                      <img
+                      <Image width="100" height="100"
                         alt="Sell"
-                        src="../../images/sell.webp"
+                        src="/images/sell.webp"
                         decoding="async"
                         data-nimg="fill"
                         style={{
@@ -220,9 +220,9 @@ back = e =>{
                         right: 0
                       }}
                     >
-                      <img
+                      <Image width="100" height="100"
                         alt="rentout"
-                        src="../../images/rent.webp"
+                        src="/images/rent.webp"
                         decoding="async"
                         data-nimg="fill"
                         style={{

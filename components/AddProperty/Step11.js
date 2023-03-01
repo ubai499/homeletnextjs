@@ -1,5 +1,5 @@
 import { Component } from "react";
-
+import Image from "next/image";
 export default class Step11 extends Component{
   continue = e =>{
     e.preventDefault();
@@ -147,9 +147,9 @@ back = e =>{
               inset: 0
             }}
           >
-            <img
+            <Image width="100" height="100"
               alt="icon"
-              src="../../images/electricity.svg"
+              src="/images/electricity.svg"
               decoding="async"
               data-nimg="fill"
               style={{
@@ -207,9 +207,9 @@ back = e =>{
               inset: 0
             }}
           >
-            <img
+            <Image width="100" height="100"
               alt="icon"
-              src="../../images/gas.svg"
+              src="/images/gas.svg"
               decoding="async"
               data-nimg="fill"
               style={{
@@ -265,9 +265,9 @@ back = e =>{
               inset: 0
             }}
           >
-            <img
+            <Image width="100" height="100"
               alt="icon"
-              src="../../images/water.svg"
+              src="/images/water.svg"
               decoding="async"
               data-nimg="fill"
               style={{
@@ -323,9 +323,9 @@ back = e =>{
               inset: 0
             }}
           >
-            <img
+            <Image width="100" height="100"
               alt="icon"
-              src="../../images/maintenance.svg"
+              src="/images/maintenance.svg"
               decoding="async"
               data-nimg="fill"
               style={{
@@ -371,9 +371,9 @@ back = e =>{
               inset: 0
             }}
           >
-            <img
+            <Image width="100" height="100"
               alt="icon"
-              src="../../images/security.svg"
+              src="/images/security.svg"
               decoding="async"
               data-nimg="fill"
               style={{
@@ -419,9 +419,9 @@ back = e =>{
               inset: 0
             }}
           >
-            <img
+            <Image width="100" height="100"
               alt="icon"
-              src="../../images/sewerage.svg"
+              src="/images/sewerage.svg"
               decoding="async"
               data-nimg="fill"
               style={{
