@@ -1,3 +1,4 @@
+import Image from "next/image"
 export default function PhotoSection(){
     return(
         <>
@@ -36,7 +37,7 @@ export default function PhotoSection(){
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="download-img">
-                <img src="images/mockup3.png" alt="" />
+                {/* <img src="images/mockup3.png" alt="" /> */}
               </div>
             </div>
           </div>

@@ -1,3 +1,4 @@
+import Image from "next/image"
 export default function Sidebar(){
     return(
         <div className="col-lg-4 col-md-4">
@@ -6,7 +7,7 @@ export default function Sidebar(){
         <div className="widget utf-sidebar-widget-item">
           <div className="utf-detail-banner-add-section">
             <a href="#">
-              <img src="images/banner-add-2.jpg" alt="banner-add-2" />
+              <Image width="100" height="100" src="/images/banner-add-2.jpg" alt="banner-add-2" />
             </a>
           </div>
         </div>

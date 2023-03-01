@@ -1,5 +1,5 @@
 import { Component } from "react";
-
+import Image from "next/image";
 export default class Step8 extends Component{
   continue = e =>{
     e.preventDefault();
@@ -161,7 +161,7 @@ back = e =>{
               maxWidth: "100%"
             }}
           >
-            <img
+            <Image width="100" height="100"
               alt=""
               aria-hidden="true"
               src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2748%27%20height=%2748%27/%3e"
@@ -179,9 +179,9 @@ back = e =>{
             />
                             
           </span>
-          <img
+          <Image width="100" height="100"
             alt="Add Photos"
-            src="../../images/upload_image_placeholder.svg"
+            src="/images/upload_image_placeholder.svg"
             decoding="async"
             data-nimg="intrinsic"
             style={{

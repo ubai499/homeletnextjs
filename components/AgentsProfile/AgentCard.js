@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 export default function AgentCard(){
     return(
         <div className="container">
@@ -9,7 +10,7 @@ export default function AgentCard(){
         {" "}
         <a href="agency-profile.html" className="utf-agent-avatar">
           {" "}
-          <img src="images/agency-01.jpg" alt="" />{" "}
+          <Image width="100" height="100" src="/images/agency-01.jpg" alt="" />{" "}
         </a>
         <div className="utf-agent-content">
           <div className="utf-agent-name">

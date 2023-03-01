@@ -1,5 +1,5 @@
 import Sidebar from "./Sidebar";
-
+import Image from "next/image";
 export default function Listings(){
     return(
         <div className="container">
@@ -71,9 +71,9 @@ export default function Listings(){
               <span className="for-sale">For Sale</span>{" "}
             </div>
             <div className="utf-listing-img-content-item">
-              <img
+              <Image width="100" height="100"
                 className="utf-user-picture"
-                src="images/user_1.jpg"
+                src="/images/user_1.jpg"
                 alt="user_1"
                 style={{ height: 366 }}
               />
@@ -107,8 +107,8 @@ export default function Listings(){
                 >
                   <div className="owl-item" style={{ width: 247 }}>
                     <div>
-                      <img
-                        src="images/listing-01.jpg"
+                      <Image width="100" height="100"
+                        src="/images/listing-01.jpg"
                         alt=""
                         style={{ height: 366 }}
                       />
@@ -116,8 +116,8 @@ export default function Listings(){
                   </div>
                   <div className="owl-item" style={{ width: 247 }}>
                     <div>
-                      <img
-                        src="images/listing-01.jpg"
+                      <Image width="100" height="100"
+                        src="/images/listing-01.jpg"
                         alt=""
                         style={{ height: 366 }}
                       />
@@ -125,8 +125,8 @@ export default function Listings(){
                   </div>
                   <div className="owl-item" style={{ width: 247 }}>
                     <div>
-                      <img
-                        src="images/listing-01.jpg"
+                      <Image width="100" height="100"
+                        src="/images/listing-01.jpg"
                         alt=""
                         style={{ height: 366 }}
                       />
@@ -201,9 +201,9 @@ export default function Listings(){
               <span className="for-rent">For Rent</span>{" "}
             </div>
             <div className="utf-listing-img-content-item">
-              <img
+              <Image width="100" height="100"
                 className="utf-user-picture"
-                src="images/user_1.jpg"
+                src="/images/user_1.jpg"
                 alt="user_1"
                 style={{ height: 305 }}
               />
@@ -220,7 +220,7 @@ export default function Listings(){
                 <div className="tip-content">Video</div>
               </span>
             </div>
-            <img src="images/listing-02.jpg" alt="" style={{ height: 305 }} />{" "}
+            <Image width="100" height="100" src="/images/listing-02.jpg" alt="" style={{ height: 305 }} />{" "}
           </a>
           <div className="utf-listing-content">
             <div className="utf-listing-title">
@@ -272,9 +272,9 @@ export default function Listings(){
               <span className="for-rent">For Rent</span>{" "}
             </div>
             <div className="utf-listing-img-content-item">
-              <img
+              <Image width="100" height="100"
                 className="utf-user-picture"
-                src="images/user_1.jpg"
+                src="/images/user_1.jpg"
                 alt="user_1"
                 style={{ height: 305 }}
               />
@@ -291,7 +291,7 @@ export default function Listings(){
                 <div className="tip-content">Video</div>
               </span>
             </div>
-            <img src="images/listing-03.jpg" alt="" style={{ height: 305 }} />{" "}
+            <Image width="100" height="100" src="/images/listing-03.jpg" alt="" style={{ height: 305 }} />{" "}
           </a>
           <div className="utf-listing-content">
             <div className="utf-listing-title">
@@ -341,9 +341,9 @@ export default function Listings(){
               <span className="for-sale">For Sale</span>{" "}
             </div>
             <div className="utf-listing-img-content-item">
-              <img
+              <Image width="100" height="100"
                 className="utf-user-picture"
-                src="images/user_1.jpg"
+                src="/images/user_1.jpg"
                 alt="user_1"
                 style={{ height: 305 }}
               />
@@ -377,8 +377,8 @@ export default function Listings(){
                 >
                   <div className="owl-item" style={{ width: 247 }}>
                     <div>
-                      <img
-                        src="images/listing-04.jpg"
+                      <Image width="100" height="100"
+                        src="/images/listing-04.jpg"
                         alt=""
                         style={{ height: 305 }}
                       />
@@ -386,8 +386,8 @@ export default function Listings(){
                   </div>
                   <div className="owl-item" style={{ width: 247 }}>
                     <div>
-                      <img
-                        src="images/listing-04.jpg"
+                      <Image width="100" height="100"
+                        src="/images/listing-04.jpg"
                         alt=""
                         style={{ height: 305 }}
                       />

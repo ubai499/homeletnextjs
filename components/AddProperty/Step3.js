@@ -1,5 +1,5 @@
 import { Component } from "react";
-
+import Image from "next/image";
 export default class Step3 extends Component{
   continue = e =>{
     e.preventDefault();
@@ -150,9 +150,9 @@ back = e =>{
                 inset: 0
               }}
             >
-              <img
+              <Image width="100" height="100"
                 alt="icon"
-                src="../../images/house.svg"
+                src="/images/house.svg"
                 decoding="async"
                 data-nimg="fill"
                 style={{
@@ -204,9 +204,9 @@ back = e =>{
                 inset: 0
               }}
             >
-              <img
+              <Image width="100" height="100"
                 alt="icon"
-                src="../../images/guesthouse.svg"
+                src="/images/guesthouse.svg"
                 decoding="async"
                 data-nimg="fill"
                 style={{
@@ -253,9 +253,9 @@ back = e =>{
                 inset: 0
               }}
             >
-              <img
+              <Image width="100" height="100"
                 alt="icon"
-                src="../../images/flat.svg"
+                src="/images/flat.svg"
                 decoding="async"
                 data-nimg="fill"
                 style={{
@@ -307,9 +307,9 @@ back = e =>{
                 inset: 0
               }}
             >
-              <img
+              <Image width="100" height="100"
                 alt="icon"
-                src="../../images/hostel.svg"
+                src="/images/hostel.svg"
                 decoding="async"
                 data-nimg="fill"
                 style={{
@@ -361,9 +361,9 @@ back = e =>{
                 inset: 0
               }}
             >
-              <img
+              <Image width="100" height="100"
                 alt="icon"
-                src="../../images/upperportion.svg"
+                src="/images/upperportion.svg"
                 decoding="async"
                 data-nimg="fill"
                 style={{
@@ -415,9 +415,9 @@ back = e =>{
                 inset: 0
               }}
             >
-              <img
+              <Image width="100" height="100"
                 alt="icon"
-                src="../../images/lowerportion.svg"
+                src="/images/lowerportion.svg"
                 decoding="async"
                 data-nimg="fill"
                 style={{
@@ -464,9 +464,9 @@ back = e =>{
                 inset: 0
               }}
             >
-              <img
+              <Image width="100" height="100"
                 alt="icon"
-                src="../../images/room.svg"
+                src="/images/room.svg"
                 decoding="async"
                 data-nimg="fill"
                 style={{
@@ -518,9 +518,9 @@ back = e =>{
                 inset: 0
               }}
             >
-              <img
+              <Image width="100" height="100"
                 alt="icon"
-                src="../../images/farmhouse.svg"
+                src="/images/farmhouse.svg"
                 decoding="async"
                 data-nimg="fill"
                 style={{
@@ -572,9 +572,9 @@ back = e =>{
                 inset: 0
               }}
             >
-              <img
+              <Image width="100" height="100"
                 alt="icon"
-                src="../../images/penthouse.svg"
+                src="/images/penthouse.svg"
                 decoding="async"
                 data-nimg="fill"
                 style={{
@@ -626,9 +626,9 @@ back = e =>{
                 inset: 0
               }}
             >
-              <img
+              <Image width="100" height="100"
                 alt="icon"
-                src="../../images/hotel_suites.svg"
+                src="/images/hotel_suites.svg"
                 decoding="async"
                 data-nimg="fill"
                 style={{
@@ -680,9 +680,9 @@ back = e =>{
                 inset: 0
               }}
             >
-              <img
+              <Image width="100" height="100"
                 alt="icon"
-                src="../../images/basement.svg"
+                src="/images/basement.svg"
                 decoding="async"
                 data-nimg="fill"
                 style={{
@@ -734,9 +734,9 @@ back = e =>{
                 inset: 0
               }}
             >
-              <img
+              <Image width="100" height="100"
                 alt="icon"
-                src="../../images/annexe.svg"
+                src="/images/annexe.svg"
                 decoding="async"
                 data-nimg="fill"
                 style={{

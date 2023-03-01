@@ -3,7 +3,7 @@ import Script from "next/script";
 export default function AddProperties(){
     return(
         <>
-        <div className="add_property_content">
+        {/* <div className="add_property_content">
             <div className="add_property_container">
                 <section className="property_content_section">
                     <div className="title_section">
@@ -82,7 +82,7 @@ export default function AddProperties(){
                             </div>
                         </div>
                     </div>
-                    <form>
+                    <form> */}
                     {/* <section className="property_detail">
                         <h3 className="inner_title">Select The Purpose of adding your property on Homelet.</h3>
                         <ul className="purpose_action">
@@ -2083,7 +2083,7 @@ export default function AddProperties(){
                             </li>
                         </ul>
                     </section> */}
-                    </form>
+                    {/* </form>
                 </section>
 
                 <section className="property_preview_section" id="style-6">
@@ -2307,7 +2307,7 @@ export default function AddProperties(){
                     <button id="nextBtn" className="next_button">Next</button>
                 </div>
             </div>
-        </div>
+        </div> */}
         {/* <Script src="scripts/form.js"></Script> */}
         </>
     )
