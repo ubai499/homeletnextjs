@@ -16,7 +16,7 @@ export default function SearchSmarter(){
 >
   <div
     className="parallax-overlay"
-    style={{ backgroundColor: "rgb(9, 132, 227)", opacity: "0.8" }}
+    style={{ backgroundColor: "rgb(1, 108, 165)", opacity: "0.8" }}
   />
   {/* Infobox */}
   <div className="text-content white-font">

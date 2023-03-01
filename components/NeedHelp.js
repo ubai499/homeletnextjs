@@ -21,7 +21,7 @@ export default function NeedHelp(){
           <div className="utf-icon-box-circle">
             <div className="utf-icon-box-circle-inner">
               {" "}
-              <i className="fa fa-comments-o" style={{color:'blue'}} />
+              <i className="fa fa-comments-o" style={{color:'#016ca5'}} />
             </div>
           </div>
           <h4>Chat to Us Online</h4>
@@ -53,7 +53,7 @@ export default function NeedHelp(){
           <div className="utf-icon-box-circle">
             <div className="utf-icon-box-circle-inner">
               {" "}
-              <i className="fa fa-superpowers" style={{color:'blue'}} />
+              <i className="fa fa-superpowers" style={{color:'#016ca5'}} />
             </div>
           </div>
           <h4>Read Latest Blog Post</h4>

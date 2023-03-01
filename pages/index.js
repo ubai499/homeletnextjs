@@ -27,7 +27,7 @@ export default function Home() {
     <PopularPlaces/>
     <SearchSmarter/>
     <BlogSection/>
-    <PhotoSection/>
+    {/* <PhotoSection/> */}
     <NeedHelp/>
     <SearchLinks/>
     <LoginRegisterPopup/>

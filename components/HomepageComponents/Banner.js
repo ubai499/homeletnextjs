@@ -28,7 +28,7 @@ const Banner = () => {
 
     return(
         <>
-        <div style={{background: 'linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/background.webp)',backgroundAttachment:'fixed',backgroundSize:'cover',backgroundPosition:'50% 0px',zIndex:'99',position:'relative',backgroundRepeat:'no-repeat'}}
+        <div style={{background: 'linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(images/background.webp)',backgroundAttachment:'fixed',backgroundSize:'cover',backgroundPosition:'50% 0px',zIndex:'99',position:'relative',backgroundRepeat:'no-repeat'}}
         className="parallax"
         >
 
@@ -103,10 +103,10 @@ const Banner = () => {
                       <a id="residential" href="#!" style={{background:'#0984E3',borderRadius:'20px',padding:'3px 10px',color:'#fff',border:'1px solid #0984E3'}}>Residential</a>
                     </div>
                     <div className="col-lg-2 col-md-2 col-sm-4">
-                    <a id="commercial" href="#!" style={{background:'transparent',borderRadius:'20px',padding:'3px 10px',color:'#000',border:'1px solid #0984E3'}}>Commercial</a>
+                    <a id="commercial" href="#!" style={{marginLeft:'10px',background:'transparent',borderRadius:'20px',padding:'3px 10px',color:'#000',border:'1px solid #0984E3'}}>Commercial</a>
                     </div>
                     <div className="col-lg-2 col-md-2 col-sm-4">
-                    <a id="plots" href="#!" style={{background:'transparent',borderRadius:'20px',padding:'3px 10px',color:'#000',border:'1px solid #0984E3'}}>Plots</a>
+                    <a id="plots" href="#!" style={{marginLeft:'35px',background:'transparent',borderRadius:'20px',padding:'3px 10px',color:'#000',border:'1px solid #0984E3'}}>Plots</a>
                     </div>
                     </div>
                   </div>

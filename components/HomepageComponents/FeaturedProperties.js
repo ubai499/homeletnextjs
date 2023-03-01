@@ -58,20 +58,19 @@ export default class FeaturedProperties extends Component{
               <Slider {...settings}>
               <div className="utf-carousel-item-area">
             <div className="utf-listing-item">
-              <Link
-                href="/propertydetails"
-                className="utf-smt-listing-img-container"
-              >
+                <div className="utf-smt-listing-img-container">
                 <div className="utf-listing-badges-item">
                   <span className="featured">Featured</span>
                   <span className="for-sale">For Sale</span>
                 </div>
                 <div className="utf-listing-img-content-item">
+                  <Link href="tel:123456">
                   <Image width="100" height="100"
                     className="utf-user-picture"
                     src="/images/call.png"
                     alt="user_1"
                   />
+                  </Link>
                   <span
                     className="like-icon with-tip"
                     data-tip-content="Bookmark"
@@ -96,7 +95,7 @@ export default class FeaturedProperties extends Component{
                     <Image width="800" height="100" src="/images/listing-01.jpg" alt="" />
                   </div>
                 </div>
-              </Link>
+                </div>
               <div className="utf-listing-content">
                 <div className="utf-listing-title">
                   <span className="utf-listing-price">PKR 18,000/mo</span>
@@ -127,31 +126,30 @@ export default class FeaturedProperties extends Component{
                   </li>
                 </ul>
                 <div className="utf-listing-user-info">
-                  <Link href="agents-profile.html">
+                  <Link href="/agentsprofile">
                     <i className="icon-line-awesome-user" /> John Williams
                   </Link>{" "}
                   <span>1 Days Ago</span>
                 </div>
               </div>
             </div>
-          </div>
+              </div>
 
-          <div className="utf-carousel-item-area">
+              <div className="utf-carousel-item-area">
             <div className="utf-listing-item">
-              <Link
-                href="/propertydetails"
-                className="utf-smt-listing-img-container"
-              >
+                <div className="utf-smt-listing-img-container">
                 <div className="utf-listing-badges-item">
                   <span className="featured">Featured</span>
                   <span className="for-sale">For Sale</span>
                 </div>
                 <div className="utf-listing-img-content-item">
+                  <Link href="tel:123456">
                   <Image width="100" height="100"
                     className="utf-user-picture"
                     src="/images/call.png"
                     alt="user_1"
                   />
+                  </Link>
                   <span
                     className="like-icon with-tip"
                     data-tip-content="Bookmark"
@@ -176,7 +174,7 @@ export default class FeaturedProperties extends Component{
                     <Image width="800" height="100" src="/images/listing-01.jpg" alt="" />
                   </div>
                 </div>
-              </Link>
+                </div>
               <div className="utf-listing-content">
                 <div className="utf-listing-title">
                   <span className="utf-listing-price">PKR 18,000/mo</span>
@@ -207,31 +205,30 @@ export default class FeaturedProperties extends Component{
                   </li>
                 </ul>
                 <div className="utf-listing-user-info">
-                  <Link href="agents-profile.html">
+                  <Link href="/agentsprofile">
                     <i className="icon-line-awesome-user" /> John Williams
                   </Link>{" "}
                   <span>1 Days Ago</span>
                 </div>
               </div>
             </div>
-          </div>
+              </div>
 
-          <div className="utf-carousel-item-area">
+              <div className="utf-carousel-item-area">
             <div className="utf-listing-item">
-              <Link
-                href="/propertydetails"
-                className="utf-smt-listing-img-container"
-              >
+                <div className="utf-smt-listing-img-container">
                 <div className="utf-listing-badges-item">
                   <span className="featured">Featured</span>
                   <span className="for-sale">For Sale</span>
                 </div>
                 <div className="utf-listing-img-content-item">
+                  <Link href="tel:123456">
                   <Image width="100" height="100"
                     className="utf-user-picture"
                     src="/images/call.png"
                     alt="user_1"
                   />
+                  </Link>
                   <span
                     className="like-icon with-tip"
                     data-tip-content="Bookmark"
@@ -256,7 +253,7 @@ export default class FeaturedProperties extends Component{
                     <Image width="800" height="100" src="/images/listing-01.jpg" alt="" />
                   </div>
                 </div>
-              </Link>
+                </div>
               <div className="utf-listing-content">
                 <div className="utf-listing-title">
                   <span className="utf-listing-price">PKR 18,000/mo</span>
@@ -287,31 +284,30 @@ export default class FeaturedProperties extends Component{
                   </li>
                 </ul>
                 <div className="utf-listing-user-info">
-                  <Link href="agents-profile.html">
+                  <Link href="/agentsprofile">
                     <i className="icon-line-awesome-user" /> John Williams
                   </Link>{" "}
                   <span>1 Days Ago</span>
                 </div>
               </div>
             </div>
-          </div>
+              </div>
 
-          <div className="utf-carousel-item-area">
+              <div className="utf-carousel-item-area">
             <div className="utf-listing-item">
-              <Link
-                href="/propertydetails"
-                className="utf-smt-listing-img-container"
-              >
+                <div className="utf-smt-listing-img-container">
                 <div className="utf-listing-badges-item">
                   <span className="featured">Featured</span>
                   <span className="for-sale">For Sale</span>
                 </div>
                 <div className="utf-listing-img-content-item">
+                  <Link href="tel:123456">
                   <Image width="100" height="100"
                     className="utf-user-picture"
                     src="/images/call.png"
                     alt="user_1"
                   />
+                  </Link>
                   <span
                     className="like-icon with-tip"
                     data-tip-content="Bookmark"
@@ -336,7 +332,7 @@ export default class FeaturedProperties extends Component{
                     <Image width="800" height="100" src="/images/listing-01.jpg" alt="" />
                   </div>
                 </div>
-              </Link>
+                </div>
               <div className="utf-listing-content">
                 <div className="utf-listing-title">
                   <span className="utf-listing-price">PKR 18,000/mo</span>
@@ -367,14 +363,14 @@ export default class FeaturedProperties extends Component{
                   </li>
                 </ul>
                 <div className="utf-listing-user-info">
-                  <Link href="agents-profile.html">
+                  <Link href="/agentsprofile">
                     <i className="icon-line-awesome-user" /> John Williams
                   </Link>{" "}
                   <span>1 Days Ago</span>
                 </div>
               </div>
             </div>
-          </div>
+              </div>
           
               </Slider>
           </div>

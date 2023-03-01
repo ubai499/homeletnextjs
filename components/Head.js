@@ -18,6 +18,8 @@ export default function Heads(){
         <link rel="shortcut icon" href="favicon.ico" />
         {/* CSS */}
         <link rel="stylesheet" href="css/stylesheet.css" />
+        <link rel="stylesheet" href="css/addpropertycss1.css" />
+        <link rel="stylesheet" href="css/addpropertycss2.css" />
         {/* Google Fonts */}
         <link
         href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800&display=swap"
