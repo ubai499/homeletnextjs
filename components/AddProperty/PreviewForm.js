@@ -1,4 +1,5 @@
 import { Component } from "react";
+import Image from "next/image";
 export default class PreviewForm extends Component{
 continue = e =>{
     e.preventDefault();
@@ -16,7 +17,7 @@ back = e =>{
         <section className="style_property_preview_section__Hr5jm">
         <div className="style_property_preview_content__JQ3uC">
           <div className="style_preview_media_wrapper__rDEzW">
-            <img
+            <Image width="100" height="100"
               src="../../images/upload_image_placeholder.svg"
               alt="Property Name for Rent/Sale"
               className="style_image_placeholder__rpvze"
@@ -59,11 +60,11 @@ back = e =>{
                             right: 0
                           }}
                         >
-                          <img
+                          <Image width="100" height="100"
                             alt="0 Beds"
                             src="../../images/beadroom.svg"
                             decoding="async"
-                            data-nimg="fill"
+                            data-nImage width="100" height="100"="fill"
                             style={{
                               position: "absolute",
                               top: 0,
@@ -109,11 +110,11 @@ back = e =>{
                             right: 0
                           }}
                         >
-                          <img
+                          <Image width="100" height="100"
                             alt="0 Beds"
                             src="../../images/bathroom.svg"
                             decoding="async"
-                            data-nimg="fill"
+                            data-nImage width="100" height="100"="fill"
                             style={{
                               position: "absolute",
                               top: 0,
@@ -160,11 +161,11 @@ back = e =>{
                             right: 0
                           }}
                         >
-                          <img
+                          <Image width="100" height="100"
                             alt="0 Garage"
                             src="../../images/parking.svg"
                             decoding="async"
-                            data-nimg="fill"
+                            data-nImage width="100" height="100"="fill"
                             style={{
                               position: "absolute",
                               top: 0,
