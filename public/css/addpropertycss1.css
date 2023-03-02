@@ -544,7 +544,7 @@ input[type=date]::-webkit-inner-spin-button {
     -webkit-appearance: none
 } */
 
-@media screen and (min-width:1200px) {
+/* @media screen and (min-width:1200px) {
     .col-xl-5 {
         flex: 0 0 auto;
         width: 41.66666667%
@@ -570,7 +570,7 @@ input[type=date]::-webkit-inner-spin-button {
         flex: 0 0 auto;
         width: 41.66666667%
     }
-}
+} */
 
 .container,
 .container-lg,
