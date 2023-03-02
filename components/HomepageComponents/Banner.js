@@ -89,7 +89,7 @@ const Banner = () => {
                 </div>
   
                 <div className="col-md-1 col-sm-6" style={{padding:'0px 2px'}}>
-                  <button className="button utf-search-btn-item" style={{padding:'12px 10px'}}>
+                  <button className="button utf-search-btn-item" style={{padding:'14px 10px'}}>
                     <i className="fa fa-search" />
                   </button>
                 </div>
@@ -115,7 +115,7 @@ const Banner = () => {
                   {/* RESIDENTIAL ICONS */}
                   <div id="residentialicons" 
                   style={{display:'flex',flexDirection:'column',paddingBottom:'1rem',maxHeight:'calc(100vh-300px)',overflowX:'hidden',overflowY:'hidden'}}>
-                  <ul style={{listStyle:'none',display:'flex',flexWrap:'wrap',width:'100%',padding:'0',margin:'0 1.75rem'}} 
+                  <ul style={{listStyle:'none',display:'flex',flexWrap:'wrap',width:'100%',padding:'0',margin:'0 0.75rem'}} 
                   >
                     <li
                     style={{
@@ -275,7 +275,7 @@ const Banner = () => {
                   {/* COMMERCIAL ICONS */}
                   <div id="commercialicons" 
                   style={{display:'none',flexDirection:'column',paddingBottom:'1rem',maxHeight:'calc(100vh-300px)',overflowX:'hidden',overflowY:'hidden'}}>
-                  <ul style={{listStyle:'none',display:'flex',flexWrap:'wrap',width:'100%',padding:'0',margin:'0 1.75rem'}} 
+                  <ul style={{listStyle:'none',display:'flex',flexWrap:'wrap',width:'100%',padding:'0',margin:'0 0.75rem'}} 
                   >
                     <li
                     style={{
@@ -440,7 +440,7 @@ const Banner = () => {
                   {/* PLOT ICONS */}
                   <div id="ploticons" 
                   style={{display:'none',flexDirection:'column',paddingBottom:'1rem',maxHeight:'calc(100vh-300px)',overflowX:'hidden',overflowY:'hidden'}}>
-                  <ul style={{listStyle:'none',display:'flex',flexWrap:'wrap',width:'100%',padding:'0',margin:'0 1.75rem'}} 
+                  <ul style={{listStyle:'none',display:'flex',flexWrap:'wrap',width:'100%',padding:'0',margin:'0 0.75rem'}} 
                   >
                     <li
                     style={{
@@ -598,7 +598,7 @@ const Banner = () => {
               </div>
 
               <div className="col-md-1 col-sm-6" style={{padding:'0px 2px'}}>
-                <button className="button utf-search-btn-item"  style={{padding:'12px 10px'}}>
+                <button className="button utf-search-btn-item"  style={{padding:'14px 10px'}}>
                   <i className="fa fa-search"/>
                 </button>
               </div>
@@ -610,7 +610,7 @@ const Banner = () => {
                 <div className="row">
                 <div id="residentialicons" 
                 style={{display:'flex',flexDirection:'column',paddingBottom:'1rem',maxHeight:'calc(100vh-300px)',overflowX:'hidden',overflowY:'hidden'}}>
-                <ul style={{listStyle:'none',display:'flex',flexWrap:'wrap',width:'100%',padding:'0',margin:'0 1.75rem'}} 
+                <ul style={{listStyle:'none',display:'flex',flexWrap:'wrap',width:'100%',padding:'0',margin:'0 0.75rem'}} 
                   >
                     <li
                     style={{

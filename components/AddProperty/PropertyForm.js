@@ -55,14 +55,18 @@ export default class PropertyForm extends Component{
         this.setState({[input]: e.target.value});
     }
     
+    
+
     render(){
         const {step} = this.state;
         const {purpose, propertytype, propertysubtype, size, unit, price, title, description,location,yearbuilt,bedrooms,bathrooms,parking,image,details,features,services,floors,floorunit,propertyfacing} = this.state;
         const values = {purpose, propertytype, propertysubtype, size, unit, price, title, description,location,yearbuilt,bedrooms,bathrooms,parking,image,details,features,services,floors,floorunit,propertyfacing}
-         switch(step){
+        
+        switch(step){
             case 1:
               return(
                 <>
+                <h1></h1>
                 <Step1
                 nextStep={this.nextStep}
                 handleChange={this.handleChange}

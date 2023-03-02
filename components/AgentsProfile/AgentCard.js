@@ -59,9 +59,9 @@ export default function AgentCard(){
           <div className="clearfix" />
           <p>
             Lorem Ipsum is simply dummy text of the printing and type setting
-            industry. Lorem Ipsum has been the industry's standard dummy text.
+            industry. Lorem Ipsum has been the industry standard dummy text.
             Lorem Ipsum is simply dummy text of the printing and type setting
-            industry. Lorem Ipsum has been the industry's standard dummy text.
+            industry. Lorem Ipsum has been the industry standard dummy text.
           </p>
         </div>
       </div>

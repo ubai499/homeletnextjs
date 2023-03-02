@@ -132,72 +132,7 @@ back = e =>{
       <div className="map_search_box_field css-2b097c-container">
         <div className="reactSelect__control css-yk16xz-control">
           <div className="reactSelect__value-container reactSelect__value-container--has-value css-1hwfws3">
-            <div className="reactSelect__single-value css-1uccc91-singleValue">
-              Soan Garden, Islamabad
-            </div>
-            <div className="css-1g6gooi">
-              <div
-                className="reactSelect__input"
-                style={{ display: "inline-block" }}
-              >
-                <input
-                  autoCapitalize="none"
-                  autoComplete="off"
-                  autoCorrect="off"
-                  id="react-select-3-input"
-                  spellCheck="false"
-                  tabIndex={0}
-                  type="text"
-                  aria-autocomplete="list"
-                  defaultValue=""
-                  style={{
-                    boxSizing: "content-box",
-                    width: 2,
-                    background: "0px center",
-                    border: 0,
-                    fontSize: "inherit",
-                    opacity: 1,
-                    outline: 0,
-                    padding: 0,
-                    color: "inherit"
-                  }}
-                />
-                <div
-                  style={{
-                    position: "absolute",
-                    top: 0,
-                    left: 0,
-                    visibility: "hidden",
-                    height: 0,
-                    overflow: "scroll",
-                    whiteSpace: "pre",
-                    fontSize: 14,
-                    fontFamily: "Poppins, sans-serif",
-                    fontWeight: 400,
-                    fontStyle: "normal",
-                    letterSpacing: "normal",
-                    textTransform: "none"
-                  }}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="reactSelect__indicators css-1wy0on6">
-            <div
-              aria-hidden="true"
-              className="reactSelect__indicator reactSelect__dropdown-indicator css-tlfecz-indicatorContainer"
-            >
-              <svg
-                height={20}
-                width={20}
-                viewBox="0 0 20 20"
-                aria-hidden="true"
-                focusable="false"
-                className="css-19bqh2r"
-              >
-                <path d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z" />
-              </svg>
-            </div>
+            <input type="text" placeholder="Soan Garden"/>
           </div>
         </div>
       </div>

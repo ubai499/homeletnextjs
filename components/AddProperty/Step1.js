@@ -12,9 +12,9 @@ back = e =>{
   render(){
     const {values,handleChange} = this.props;
     this.props.values;
+    const {values: {purpose}} = this.props;
     return(
       <>
-
 <div className="style_steper_wrapper__3YtEK">
   <div className="style_steper_navbar__Kmagi has-swiper-slider">
     <div className="swiper swiper-initialized swiper-horizontal swiper-pointer-events undefined has-stepper-items">
@@ -124,7 +124,7 @@ back = e =>{
             </div>
           </div>
         </div>
-      </div>
+</div>
 
          <section className="style_property_detail_section__LE1g_">
           <h3 className="style_inner_title__pzjcU">

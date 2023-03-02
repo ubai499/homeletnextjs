@@ -15,7 +15,21 @@ back = e =>{
     return(
       <>
         <section className="style_property_preview_section__Hr5jm">
+                    
         <div className="style_property_preview_content__JQ3uC">
+        <div className="style_property_score_section__N3J41 undefined">
+            <div className="style_property_score_content__XwDtQ">
+                <h2>Property Scorecard</h2>
+                <p className="gray-color">
+                    To improve your property score, add more features
+                </p>
+            </div>
+            <div className="style_property_score_chart__cMk_t style_chart_55__63huQ">
+            <span />
+            <span className="style_label__EkiwW">55% </span>
+            </div>
+        </div>
+
           <div className="style_preview_media_wrapper__rDEzW">
             <Image width="100" height="100"
               src="../../images/upload_image_placeholder.svg"

@@ -82,8 +82,9 @@
     --bs-btn-disabled-border-color: #212529;
     --bs-gradient: none
 }
-/* 
-.dropdown-menu {
+
+
+/* .dropdown-menu {
     --bs-dropdown-color: #212529
 }
 
@@ -98,8 +99,10 @@
 
 .nav-pills .nav-link {
     background: 0 0
-}
+} */
 
+
+/* 
 .card-subtitle {
     margin-top: calc(-.5 * var(--bs-card-title-spacer-y))
 }
@@ -122,7 +125,7 @@
 
 .accordion-button:not(.collapsed) {
     box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color)
-}
+} */
 
 .alert-primary {
     --bs-alert-color: #084298;
@@ -489,7 +492,7 @@ body::-webkit-scrollbar-thumb:hover {
     background: #016ca5
 }
 
-.form-control:active,
+/* .form-control:active,
 .form-control:focus,
 .form-select:active,
 .form-select:focus,
@@ -539,7 +542,7 @@ input[type=date]::-webkit-calendar-picker-indicator,
 input[type=date]::-webkit-inner-spin-button {
     opacity: 0;
     -webkit-appearance: none
-}
+} */
 
 @media screen and (min-width:1200px) {
     .col-xl-5 {
@@ -2518,8 +2521,12 @@ textarea.error {
     text-align: center;
     overflow: hidden;
     margin: .5rem 0
-} */
-/* 
+}
+
+
+
+
+
 .form-separator:before {
     content: "";
     position: absolute;
@@ -4541,8 +4548,13 @@ textarea.error {
     .header_wrapper.transparentHeader .search_box_mask_form {
         width: 40px
     }
-} */
-/* 
+}
+
+
+
+
+
+
 .header_wrapper.transparentHeader .search_box_mask_form.hideSearch {
     opacity: 0;
     visibility: hidden
@@ -5047,7 +5059,7 @@ textarea.error {
     .search_box_field_wrapper .search_box_label {
         display: none
     }
-} */
+}
 
 .search_box_field_wrapper .search_box_field {
     width: 100%;
@@ -8084,7 +8096,8 @@ textarea.error {
     font-size: 1.75rem;
     margin: 0
 } */
-/* 
+
+
 @media screen and (max-width:992px) {
     .inner_page_content_wrapper .inner_page_section_title .section_main_title {
         font-size: 1.5rem
@@ -8817,13 +8830,13 @@ ul {
 a,
 button,
 svg {
-    transition: all .3s ease-in-out
+    /* transition: all .3s ease-in-out */
 }
 
 a,
 a:hover {
     text-decoration: none
-} */
+}
 
 #wrapper {
     width: 100%;
