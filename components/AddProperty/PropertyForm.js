@@ -66,124 +66,375 @@ export default class PropertyForm extends Component{
             case 1:
               return(
                 <>
-                <h1></h1>
-                <Step1
-                nextStep={this.nextStep}
-                handleChange={this.handleChange}
-                values={values}
-                />
+                <section className="style_add_property_page_wrapper___HPy2">
+                    <div className="style_add_property_page_content__6vkug">
+                     <div className="style_add_property_container__qkUWI container">
+                        <section className="style_property_content_section__ZLslk">
+                            <div className="false style_page_title_section__D42UD">
+                                <div className="false style_page_title_section__D42UD">
+                                    <h1 className="style_title__CFuHg">Add Property</h1>
+                                </div>
+                            </div>
+
+                        <Step1
+                        nextStep={this.nextStep}
+                        handleChange={this.handleChange}
+                        values={values}
+                        />
+
+                        </section>
+                    
+                        <PreviewForm
+                        handleChange={this.handleChange}
+                        values={values}
+                        />
+
+                    </div>
+                    </div>
+                </section>
                 </>
               )
             case 2:
               return(
                 <>
-                <Step2
-                nextStep={this.nextStep}
-                prevStep={this.prevStep}
-                handleChange={this.handleChange}
-                values={values}
-                />
+                <section className="style_add_property_page_wrapper___HPy2">
+                    <div className="style_add_property_page_content__6vkug">
+                     <div className="style_add_property_container__qkUWI container">
+                        <section className="style_property_content_section__ZLslk">
+                            <div className="false style_page_title_section__D42UD">
+                                <div className="false style_page_title_section__D42UD">
+                                    <h1 className="style_title__CFuHg">Add Property</h1>
+                                </div>
+                            </div>
+
+                        <Step2
+                        nextStep={this.nextStep}
+                        prevStep={this.prevStep}
+                        handleChange={this.handleChange}
+                        values={values}
+                        />
+
+                        </section>
+                    
+                        <PreviewForm
+                        handleChange={this.handleChange}
+                        values={values}
+                        />
+                        
+                    </div>
+                    </div>
+                </section>
                 </>
               )
           case 3:
               return(
                   <>
+                <section className="style_add_property_page_wrapper___HPy2">
+                    <div className="style_add_property_page_content__6vkug">
+                     <div className="style_add_property_container__qkUWI container">
+                        <section className="style_property_content_section__ZLslk">
+                            <div className="false style_page_title_section__D42UD">
+                                <div className="false style_page_title_section__D42UD">
+                                    <h1 className="style_title__CFuHg">Add Property</h1>
+                                </div>
+                            </div>
+
                   <Step3
                   nextStep={this.nextStep}
                   prevStep={this.prevStep}
                   handleChange={this.handleChange}
                   values={values}
                   />
+
+                        </section>
+                    
+                        <PreviewForm
+                        handleChange={this.handleChange}
+                        values={values}
+                        />
+                        
+                    </div>
+                    </div>
+                </section>
                   </>
               )
           case 4:
               return(
                   <>
-                  <Step4
-                  nextStep={this.nextStep}
-                  prevStep={this.prevStep}
-                  handleChange={this.handleChange}
-                  values={values}/>
+                <section className="style_add_property_page_wrapper___HPy2">
+                    <div className="style_add_property_page_content__6vkug">
+                     <div className="style_add_property_container__qkUWI container">
+                        <section className="style_property_content_section__ZLslk">
+                            <div className="false style_page_title_section__D42UD">
+                                <div className="false style_page_title_section__D42UD">
+                                    <h1 className="style_title__CFuHg">Add Property</h1>
+                                </div>
+                            </div>
+
+                            <Step4
+                            nextStep={this.nextStep}
+                            prevStep={this.prevStep}
+                            handleChange={this.handleChange}
+                            values={values}/>
+
+                        </section>
+                    
+                        <PreviewForm
+                        handleChange={this.handleChange}
+                        values={values}
+                        />
+                        
+                    </div>
+                    </div>
+                </section>
+
                   </>
               )
         case 5:
             return(
                 <>
-                <Step5
-                nextStep={this.nextStep}
-                prevStep={this.prevStep}
-                handleChange={this.handleChange}
-                values={values}/>
+                <section className="style_add_property_page_wrapper___HPy2">
+                    <div className="style_add_property_page_content__6vkug">
+                     <div className="style_add_property_container__qkUWI container">
+                        <section className="style_property_content_section__ZLslk">
+                            <div className="false style_page_title_section__D42UD">
+                                <div className="false style_page_title_section__D42UD">
+                                    <h1 className="style_title__CFuHg">Add Property</h1>
+                                </div>
+                            </div>
+                            
+                            <Step5
+                            nextStep={this.nextStep}
+                            prevStep={this.prevStep}
+                            handleChange={this.handleChange}
+                            values={values}/>
+                        </section>
+                    
+                        <PreviewForm
+                        handleChange={this.handleChange}
+                        values={values}
+                        />
+                        
+                    </div>
+                    </div>
+                </section>
                 </>
             )
             case 6:
             return(
                 <>
-                <Step6
-                nextStep={this.nextStep}
-                prevStep={this.prevStep}
-                handleChange={this.handleChange}
-                values={values}/>
+                <section className="style_add_property_page_wrapper___HPy2">
+                    <div className="style_add_property_page_content__6vkug">
+                     <div className="style_add_property_container__qkUWI container">
+                        <section className="style_property_content_section__ZLslk">
+                            <div className="false style_page_title_section__D42UD">
+                                <div className="false style_page_title_section__D42UD">
+                                    <h1 className="style_title__CFuHg">Add Property</h1>
+                                </div>
+                            </div>
+                            
+                            <Step6
+                            nextStep={this.nextStep}
+                            prevStep={this.prevStep}
+                            handleChange={this.handleChange}
+                            values={values}/>
+
+                        </section>
+                    
+                        <PreviewForm
+                        handleChange={this.handleChange}
+                        values={values}
+                        />
+                        
+                    </div>
+                    </div>
+                </section>
                 </>
             )
             case 7:
             return(
                 <>
-                <Step7
-                nextStep={this.nextStep}
-                prevStep={this.prevStep}
-                handleChange={this.handleChange}
-                values={values}/>
+                <section className="style_add_property_page_wrapper___HPy2">
+                    <div className="style_add_property_page_content__6vkug">
+                     <div className="style_add_property_container__qkUWI container">
+                        <section className="style_property_content_section__ZLslk">
+                            <div className="false style_page_title_section__D42UD">
+                                <div className="false style_page_title_section__D42UD">
+                                    <h1 className="style_title__CFuHg">Add Property</h1>
+                                </div>
+                            </div>
+                            
+                            <Step7
+                            nextStep={this.nextStep}
+                            prevStep={this.prevStep}
+                            handleChange={this.handleChange}
+                            values={values}/>
+
+                        </section>
+                    
+                        <PreviewForm
+                        handleChange={this.handleChange}
+                        values={values}
+                        />
+                        
+                    </div>
+                    </div>
+                </section>
                 </>
             )
             case 8:
             return(
                 <>
-                <Step8
-                nextStep={this.nextStep}
-                prevStep={this.prevStep}
-                handleChange={this.handleChange}
-                values={values}/>
+                <section className="style_add_property_page_wrapper___HPy2">
+                    <div className="style_add_property_page_content__6vkug">
+                     <div className="style_add_property_container__qkUWI container">
+                        <section className="style_property_content_section__ZLslk">
+                            <div className="false style_page_title_section__D42UD">
+                                <div className="false style_page_title_section__D42UD">
+                                    <h1 className="style_title__CFuHg">Add Property</h1>
+                                </div>
+                            </div>
+                            
+                            <Step8
+                            nextStep={this.nextStep}
+                            prevStep={this.prevStep}
+                            handleChange={this.handleChange}
+                            values={values}/>
+
+                        </section>
+                    
+                        <PreviewForm
+                        handleChange={this.handleChange}
+                        values={values}
+                        />
+                        
+                    </div>
+                    </div>
+                </section>
                 </>
             )
             case 9:
             return(
                 <>
-                <Step9
-                nextStep={this.nextStep}
-                prevStep={this.prevStep}
-                handleChange={this.handleChange}
-                values={values}/>
+                <section className="style_add_property_page_wrapper___HPy2">
+                    <div className="style_add_property_page_content__6vkug">
+                     <div className="style_add_property_container__qkUWI container">
+                        <section className="style_property_content_section__ZLslk">
+                            <div className="false style_page_title_section__D42UD">
+                                <div className="false style_page_title_section__D42UD">
+                                    <h1 className="style_title__CFuHg">Add Property</h1>
+                                </div>
+                            </div>
+                            
+                            <Step9
+                            nextStep={this.nextStep}
+                            prevStep={this.prevStep}
+                            handleChange={this.handleChange}
+                            values={values}/>
+
+                        </section>
+                    
+                        <PreviewForm
+                        handleChange={this.handleChange}
+                        values={values}
+                        />
+                        
+                    </div>
+                    </div>
+                </section>
                 </>
             )
             case 10:
             return(
                 <>
-                <Step10
-                nextStep={this.nextStep}
-                prevStep={this.prevStep}
-                handleChange={this.handleChange}
-                values={values}/>
+                <section className="style_add_property_page_wrapper___HPy2">
+                    <div className="style_add_property_page_content__6vkug">
+                     <div className="style_add_property_container__qkUWI container">
+                        <section className="style_property_content_section__ZLslk">
+                            <div className="false style_page_title_section__D42UD">
+                                <div className="false style_page_title_section__D42UD">
+                                    <h1 className="style_title__CFuHg">Add Property</h1>
+                                </div>
+                            </div>
+                            
+                            <Step10
+                            nextStep={this.nextStep}
+                            prevStep={this.prevStep}
+                            handleChange={this.handleChange}
+                            values={values}/>
+
+                        </section>
+                    
+                        <PreviewForm
+                        handleChange={this.handleChange}
+                        values={values}
+                        />
+                        
+                    </div>
+                    </div>
+                </section>
                 </>
             )
             case 11:
             return(
                 <>
-                <Step11
-                nextStep={this.nextStep}
-                prevStep={this.prevStep}
-                handleChange={this.handleChange}
-                values={values}/>
+                <section className="style_add_property_page_wrapper___HPy2">
+                    <div className="style_add_property_page_content__6vkug">
+                     <div className="style_add_property_container__qkUWI container">
+                        <section className="style_property_content_section__ZLslk">
+                            <div className="false style_page_title_section__D42UD">
+                                <div className="false style_page_title_section__D42UD">
+                                    <h1 className="style_title__CFuHg">Add Property</h1>
+                                </div>
+                            </div>
+                            
+                            <Step11
+                            nextStep={this.nextStep}
+                            prevStep={this.prevStep}
+                            handleChange={this.handleChange}
+                            values={values}/>
+
+                        </section>
+                    
+                        <PreviewForm
+                        handleChange={this.handleChange}
+                        values={values}
+                        />
+                        
+                    </div>
+                    </div>
+                </section>
                 </>
             )
             case 12:
             return(
                 <>
-                <Step12
-                nextStep={this.nextStep}
-                prevStep={this.prevStep}
-                handleChange={this.handleChange}
-                values={values}/>
+                <section className="style_add_property_page_wrapper___HPy2">
+                    <div className="style_add_property_page_content__6vkug">
+                     <div className="style_add_property_container__qkUWI container">
+                        <section className="style_property_content_section__ZLslk">
+                            <div className="false style_page_title_section__D42UD">
+                                <div className="false style_page_title_section__D42UD">
+                                    <h1 className="style_title__CFuHg">Add Property</h1>
+                                </div>
+                            </div>
+                            
+                            <Step12
+                            nextStep={this.nextStep}
+                            prevStep={this.prevStep}
+                            handleChange={this.handleChange}
+                            values={values}/>
+
+                        </section>
+                    
+                        <PreviewForm
+                        handleChange={this.handleChange}
+                        values={values}
+                        />
+                        
+                    </div>
+                    </div>
+                </section>
                 </>
             )
           }

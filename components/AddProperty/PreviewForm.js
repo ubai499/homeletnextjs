@@ -26,7 +26,7 @@ back = e =>{
             </div>
             <div className="style_property_score_chart__cMk_t style_chart_55__63huQ">
             <span />
-            <span className="style_label__EkiwW">55% </span>
+            <span className="style_label__EkiwW"></span>
             </div>
         </div>
 
@@ -39,7 +39,7 @@ back = e =>{
           </div>
           <div className="style_preview_content_wrapper__YYVrK">
             <section className="style_price_wrapper__PQ2nn">
-              <span className="style_currency__u1xtN">&lt;Price&gt;</span>
+              <span className="style_currency__u1xtN"></span>
             </section>
             <section className="style_title_wrapper__iSnOM">
               <div className="style_title_wrapper_without_location__Oc1Zb">
