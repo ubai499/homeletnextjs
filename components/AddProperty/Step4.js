@@ -143,7 +143,7 @@ back = e =>{
           className="style_form_input_text__HYrLe form-control"
           id="sizeValue"
           required=""
-          defaultValue=""
+          onChange={handleChange('size')} defaultValue={''}
         />
         <div className="style_input_group_select__g0Vij custom_select">
           <div
@@ -151,9 +151,9 @@ back = e =>{
             id="areaUnit"
           >
             <div className="react-select__control css-yk16xz-control">
-            <select style={{background:'transparent',border:'none',marginTop:'-10px',padding:'10px'}}>
-                <option>Marla</option>
-                <option>Kanal</option>
+            <select style={{background:'transparent',border:'none',marginTop:'-10px',padding:'10px'}} onChange={handleChange('unit')} defaultValue={'marla'}>
+                <option value="Marla">Marla</option>
+                <option value="Kanal">Kanal</option>
             </select>
             </div>
 
@@ -172,7 +172,7 @@ back = e =>{
           pattern="[0-9\/]*"
           className="form-control"
           required=""
-          defaultValue=""
+          onChange={handleChange('price')} defaultValue={''}
         />
       </div>
     </div>

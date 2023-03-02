@@ -132,7 +132,7 @@ back = e =>{
       <div className="map_search_box_field css-2b097c-container">
         <div className="reactSelect__control css-yk16xz-control">
           <div className="reactSelect__value-container reactSelect__value-container--has-value css-1hwfws3">
-            <input type="text" placeholder="Soan Garden"/>
+            <input type="text" placeholder="Soan Garden" onChange={handleChange('location')} defaultValue={''}/>
           </div>
         </div>
       </div>

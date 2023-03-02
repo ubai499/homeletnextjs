@@ -12,7 +12,7 @@ back = e =>{
   render(){
     const {values,handleChange} = this.props;
     this.props.values;
-    const {values: {purpose}} = this.props;
+    // const {values: {purpose}} = this.props;
     return(
       <>
 <div className="style_steper_wrapper__3YtEK">
